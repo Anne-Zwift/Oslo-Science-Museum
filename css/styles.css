@@ -42,6 +42,22 @@ body {
 }
 
 /*nav starts here*/
+header {
+    background-color: #dbacac50;
+}
+
+.logo-nav {
+    block-size: 7vh;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.hamburger-menu {
+    display: flex;
+    float: right;
+    margin-top: 25px;
+    padding: 10px;
+}
 
 /*footer starts here*/
 .footer {
