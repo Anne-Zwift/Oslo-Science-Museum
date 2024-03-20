@@ -1,0 +1,41 @@
+h1 {
+    font-family: "Inter", sans-serif;
+    font-size: 2rem;
+    color: #1B5992;
+}
+
+h2 {
+    font-family: "Inter", sans-serif;
+    font-size: 1.5rem;
+}
+
+h3 {
+    font-family: "Inter", sans-serif;
+    font-size: 1.25rem;
+}
+
+body {
+    font-family: "Inter", sans-serif;
+    font-size: 1rem;
+    color: #000;
+    width: 343px;
+}
+
+.caption {
+    font-family: "Inter", sans-serif;
+    color: #6C6E70;
+    font-size: 0.75rem;
+    width: 370px;
+}
+
+.button-events {
+    font-family: "Inter", sans-serif;
+    font-size: .87rem;
+    background-color: #1B5992;
+    color: #fff;
+    width: 260px;
+}
+
+.footer {
+    background-color: #DBACAC;
+}
