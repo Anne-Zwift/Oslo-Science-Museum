@@ -34,13 +34,6 @@ body {
     margin-bottom: 20px;
 }
 
-.button-events {
-    font-family: "Inter", sans-serif;
-    font-size: .8rem;
-    background-color: #1B5992;
-    color: #fff;
-}
-
 /*nav starts here*/
 header {
     background-color: #dbacac50;

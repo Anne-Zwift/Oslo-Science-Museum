@@ -1,3 +1,16 @@
 body {
     text-align: center;
 }
+
+.button-events {
+    font-family: "Inter", sans-serif;
+    font-size: .8rem;
+    background-color: #1B5992;
+    color: #fff;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.scientific img {
+    width: 250px;
+}
