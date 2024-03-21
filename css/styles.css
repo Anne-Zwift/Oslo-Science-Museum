@@ -54,10 +54,17 @@ header {
 }
 
 .hamburger-menu {
-    display: flex;
     float: right;
     margin-top: 25px;
     padding: 10px;
+}
+
+#hamburger-menu {
+    display: none;
+}
+
+#hamburger-menu:checked ~ nav {
+    display: block;
 }
 
 .menu {
@@ -93,6 +100,10 @@ header {
     margin-left: 0px;
     margin-bottom: 0px;
     padding-left: 0px;
+}
+
+.caption a {
+    color: #6C6E70;
 }
 
 .icon {
