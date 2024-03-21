@@ -87,6 +87,10 @@ nav a:hover {
     margin-right: 10px;
 }
 
+.museum-img {
+    background-image: url("./images/museum.png");
+}
+
 /*footer starts here*/
 .footer {
     background-color: #dbacac50;
@@ -144,4 +148,38 @@ b:hover {
     font-size: 0.5rem;
     color: #000;
     padding: 20px;
+}
+
+@media (min-width: 425px) {
+
+.logo-nav {
+    block-size: 9vh;
+    margin-left: -50px;
+}
+    
+.hamburger-menu {
+    padding: 15px;
+    margin-right: 20px;
+}
+
+}
+
+@media (min-width: 600px) {
+
+.logo-nav {
+    margin-left: -160px;
+}
+
+.hamburger-menu {
+padding: 22px;
+margin-right: 40px;
+}
+
+nav {
+    padding-top: 20px;
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-bottom: 20px;
+    margin-left: -40px;
+}
 }

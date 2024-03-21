@@ -2,6 +2,11 @@ body {
     text-align: center;
 }
 
+.background-color {
+background-color: #1B5992;
+padding: 10px;
+}
+
 .button-events {
     font-family: "Inter", sans-serif;
     font-size: .8rem;
@@ -13,4 +18,31 @@ body {
 
 .scientific img {
     width: 250px;
+}
+
+.text-color {
+    color: #1B5992;
+}
+
+@media (min-width: 375px) {
+
+.img-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    padding-bottom: 10px;
+}
+
+.img-small {
+    margin-bottom: 18px;
+}
+
+.scientific img {
+    width: 350px;
+}
+
+}
+
+@media (min-width: 600px) {
+     
 }
