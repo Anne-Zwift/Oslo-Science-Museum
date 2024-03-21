@@ -44,6 +44,7 @@ body {
 /*nav starts here*/
 header {
     background-color: #dbacac50;
+    position: relative;
 }
 
 .logo-nav {
@@ -55,10 +56,15 @@ header {
 
 nav {
     display: none;
+    position: absolute;
+    padding: 60px;
+    background-color: #fff;
+    text-align: left;
 }
 
 nav a {
-    display: block;
+    text-decoration: none;
+    color: #1B5992;
 }
 
 .hamburger-menu {
