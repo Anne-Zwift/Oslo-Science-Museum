@@ -53,6 +53,14 @@ header {
     margin-left: -10px;
 }
 
+nav {
+    display: none;
+}
+
+nav a {
+    display: block;
+}
+
 .hamburger-menu {
     float: right;
     margin-top: 25px;
