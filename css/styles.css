@@ -87,10 +87,6 @@ nav a:hover {
     margin-right: 10px;
 }
 
-.museum-img {
-    background-image: url("./images/museum.png");
-}
-
 /*footer starts here*/
 .footer {
     background-color: #dbacac50;

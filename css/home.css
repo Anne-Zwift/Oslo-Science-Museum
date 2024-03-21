@@ -2,9 +2,16 @@ body {
     text-align: center;
 }
 
+.museum-img {
+    background-image: url("/images/museum.png");
+    background-size: cover; 
+    background-repeat: no-repeat; 
+}
+
 .background-color {
 background-color: #1B5992;
 padding: 10px;
+margin-top: 20px;
 }
 
 .button-events {
