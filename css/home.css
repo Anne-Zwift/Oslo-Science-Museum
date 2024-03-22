@@ -101,5 +101,77 @@ body {
     width: 550px;
 }
 
+}
 
+@media (min-width: 768px) {
+
+.museum img {
+    width: 750px;
+}
+
+.section-container {
+    background-color: #dbacac;
+    text-align: left;
+    width: 300px;
+    margin-top: -320px;
+    margin-left: 80px;
+}
+
+h1 {
+    color: #000;
+    padding: 20px;
+    margin: 0px;
+}
+
+.text-container {
+    width: 250px;
+}
+
+.button-events {
+    margin-left: 20px;
+}
+
+.background-color {
+    padding: 20px;
+}
+
+.exhibition img {
+    block-size: 14vh;
+    padding: 0px;
+    border: 2px solid #000;
+}
+
+.img-container {
+    grid-template-columns: repeat(2, .1fr);
+    margin-left: -100px;
+    margin-right: -20px;
+    margin-top: -300px;
+    gap: 20px;
+}
+
+.text-container2 {
+    font-size: 0.7rem;
+    width: 330px;
+    margin-left: 400px;
+}
+
+.text-color {
+    font-size: 0.7rem;
+    text-align: center;
+    width: 330px;
+    margin-top: 100px;
+}
+
+.scientific img {
+    width: 350px;
+    float: right;
+    margin-top: -270px;
+    margin-right: 30px;
+}
+
+.button-events2 {
+    background-color: #1B5992;
+    color: #fff;
+    margin-left: -400px;
+}
 }
