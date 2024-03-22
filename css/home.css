@@ -102,6 +102,7 @@ body {
 }
 
 }
+/*tablet*/
 
 @media (min-width: 768px) {
 
@@ -174,4 +175,45 @@ h1 {
     color: #fff;
     margin-left: -400px;
 }
+
+}
+
+@media (min-width: 900px) {
+
+.museum img {
+    width: 850px;
+}
+
+.exhibition {
+    width: 850px;
+    margin-left: 23px;
+}
+
+.img-container {
+    margin-left: -40px;
+    margin-right: 0px;
+    margin-top: -290px;
+}
+
+.text-container2 {
+    width: 360px;
+    margin-left: 460px;
+    margin-top: 40px;
+}
+
+.text-color {
+    width: 360px;
+    margin-top: 80px;
+    margin-left: 60px;
+}
+
+.scientific img {
+    margin-top: -235px;
+    margin-right: 90px;
+}
+
+.button-events2 {
+    margin-left: -420px;
+}
+
 }
