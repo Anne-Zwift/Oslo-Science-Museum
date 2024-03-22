@@ -2,16 +2,15 @@ body {
     text-align: center;
 }
 
-.museum-img {
-    background-image: url("/images/museum.png");
-    background-size: cover; 
-    background-repeat: no-repeat; 
+.museum img {
+    margin-top: 20px;
+    width: 250px;
 }
 
 .background-color {
-background-color: #1B5992;
-padding: 10px;
-margin-top: 20px;
+    background-color: #1B5992;
+    padding: 10px;
+    margin-top: 20px;
 }
 
 .button-events {
@@ -32,6 +31,10 @@ margin-top: 20px;
 }
 
 @media (min-width: 375px) {
+
+.museum img {
+    width: 350px;
+}
 
 .img-container {
     display: grid;
