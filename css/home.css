@@ -53,6 +53,53 @@ body {
 
 }
 
+@media (min-width: 425px) {
+
+.img-container {
+    gap: 0px;
+}
+
+.vr-glasses {
+    margin-left: 30px;
+}
+
+}
+
 @media (min-width: 600px) {
      
+.museum img {
+    width: 550px;
+}
+
+.text-container {
+    width: 550px;
+    text-align: left;
+    margin-left: 20px;
+}
+
+.text-container2 {
+    width: 550px;
+    text-align: left;
+    margin-left: 20px;
+}
+
+.vr-glasses {
+    margin-left: 100px;
+}
+
+.img-small {
+    margin-right: 100px;
+}
+
+.text-color {
+    width: 550px;
+    text-align: left;
+    margin-left: 20px;
+}
+
+.scientific img {
+    width: 550px;
+}
+
+
 }
