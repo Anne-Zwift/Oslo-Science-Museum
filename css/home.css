@@ -111,11 +111,13 @@ body {
 }
 
 .section-container {
-    background-color: #dbacac;
+    background-color: #dbacacb9;
     text-align: left;
+    font-weight: 600;
     width: 300px;
-    margin-top: -320px;
-    margin-left: 80px;
+    margin-top: -180px;
+    margin-left: 180px;
+    transform: translate(-50%, -50%);
 }
 
 h1 {
@@ -134,6 +136,7 @@ h1 {
 
 .background-color {
     padding: 20px;
+    margin-top: -100px;
 }
 
 .exhibition img {
@@ -184,9 +187,18 @@ h1 {
     width: 850px;
 }
 
+.section-container {
+    margin-left: 240px;
+}
+
 .exhibition {
     width: 850px;
     margin-left: 23px;
+}
+
+.exhibition img {
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
 .img-container {
@@ -216,4 +228,11 @@ h1 {
     margin-left: -420px;
 }
 
+}
+
+@media (min-width: 1000px) {
+
+
+
+    
 }
