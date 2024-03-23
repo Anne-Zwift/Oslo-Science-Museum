@@ -179,6 +179,23 @@ h1 {
     margin-left: -400px;
 }
 
+.text-container3 {
+    display: grid;
+    grid-template-rows: repeat(1, 1fr);
+    grid-template-columns: repeat(2, 1fr);
+    font-size: 0.7rem;
+    text-align: left;
+    column-width: 250px;
+    gap: 60px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    margin-left: 20px;
+}
+
+.text-container3 b {
+    margin-left: 0px;
+}
+
 }
 
 @media (min-width: 900px) {
@@ -247,6 +264,45 @@ h1 {
 
 .button-events2 {
     margin-left: -500px;
+}
+
+}
+
+@media (min-width: 1100px) {
+
+.museum img {
+    width: 1050px;
+}
+  
+.exhibition {
+    width: 1055px;
+    margin-left: 20px;
+}
+
+.img-container {
+    margin-left: 60px;
+    margin-top: -250px;
+}
+
+.text-container2 {
+    width: 400px;
+    margin-left: 600px;
+}
+
+.text-color {
+    width: 400px;
+    margin-left: 120px;
+}
+
+.scientific img {
+    width: 450px;
+    margin-right: 60px;
+}
+
+.button-events2 {
+    margin-top: 40px;
+    margin-left: 40px;
+    margin-bottom: 40px;
 }
 
 }
