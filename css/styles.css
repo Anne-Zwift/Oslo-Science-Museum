@@ -41,10 +41,10 @@ header {
 }
 
 .logo-nav {
-    block-size: 7vh;
+    block-size: 6vh;
     margin-top: 20px;
     margin-bottom: 20px;
-    margin-left: -10px;
+    margin-left: 0px;
 }
 
 nav {
@@ -67,8 +67,8 @@ nav a:hover {
 
 .hamburger-menu {
     float: right;
-    margin-top: 25px;
-    padding: 10px;
+    margin-top: 10px;
+    padding: 20px;
 }
 
 #hamburger-menu {
@@ -87,6 +87,11 @@ nav a:hover {
     margin-right: 10px;
 }
 
+.button-events2 {
+    background-color: #1B5992;
+    color: #fff;
+}
+
 /*footer starts here*/
 .footer {
     background-color: #dbacac50;
@@ -94,7 +99,7 @@ nav a:hover {
 }
 
 .logo {
-    block-size: 8vh;
+    block-size: 6vh;
     margin-top: 20px;
 }
 
@@ -146,21 +151,40 @@ b:hover {
     padding: 20px;
 }
 
+@media (min-width: 375px) {
+
+.hamburger-menu {
+    margin-top: -10px;
+    padding: 40px;
+}
+
+.menu {
+    margin-left: 40px; 
+    margin-right: 35px;
+}
+
+}
+
 @media (min-width: 425px) {
 
 .logo-nav {
-    block-size: 9vh;
-    margin-left: -50px;
+    block-size: 8vh;
+    margin-left: -20px;
 }
     
 .hamburger-menu {
-    padding: 15px;
-    margin-right: 20px;
+    margin-top: 0px;
 }
 
 nav {
     padding: 20px;
     width: 369px;
+}
+
+/*footer*/
+.logo {
+    block-size: 8vh;
+    margin-top: 20px;
 }
 
 }
@@ -171,14 +195,14 @@ nav {
     margin-left: -160px;
 }
 
-.hamburger-menu {
-padding: 22px;
-margin-right: 40px;
+.menu {
+    margin-top: 65px;
+    margin-right: -60px;
 }
 
 nav {
     padding-top: 20px;
-    padding-left: 80px;
+    padding-left: 160px;
     padding-right: 80px;
     padding-bottom: 20px;
     margin-left: -40px;
@@ -190,6 +214,7 @@ nav {
 @media (min-width: 768px) {
 
 .logo-nav {
+    block-size: 9vh;
     margin-left: -20px;
 }
 
@@ -206,10 +231,14 @@ nav a {
     display: inline-block;
     padding-left: 6px;
     padding-right: 6px;
-    margin-top: 42px
+    margin-top: 45px
 }
 
 .hamburger-menu {
+    display: none;
+}
+
+.menu {
     display: none;
 }
 
@@ -247,6 +276,18 @@ b {
 
 .copyright {
     text-align: center;
+}
+
+}
+
+@media (min-width: 1000px) {
+
+.logo-nav {
+    margin-left: -160px;
+}
+    
+nav {
+    margin-right: 60px;
 }
 
 }

@@ -232,7 +232,21 @@ h1 {
 
 @media (min-width: 1000px) {
 
-
-
+.museum img {
+    width: 950px;
+}
     
+.exhibition {
+    width: 945px;
+    margin-left: 20px;
+}
+
+.scientific img {
+    margin-right: 165px;
+}
+
+.button-events2 {
+    margin-left: -500px;
+}
+
 }
