@@ -306,3 +306,70 @@ h1 {
 }
 
 }
+
+@media (min-width: 1200px) {
+
+.museum img {
+    width: 1150px;
+}
+
+.exhibition {
+    width: 1155px;
+    margin-left: 20px;
+}
+
+.button-events2 {
+    margin-left: -40px;
+}
+
+}
+
+@media (min-width: 1300px) {
+
+.museum img {
+    width: 1250px;
+}
+    
+.exhibition {
+    width: 1255px;
+    margin-left: 40px;
+}
+    
+.img-container {
+    margin-left: 160px;
+}
+
+.text-container2 {
+    width: 400px;
+    margin-left: 700px;
+}
+
+.text-color {
+    margin-left: 220px;
+}
+
+.scientific img {
+    width: 450px;
+    margin-right: 180px;
+}
+
+.button-events2 {
+    margin-left: 120px;
+    
+}
+
+.text-container3 {
+    gap: 0px;
+}
+
+.text-container3 p {
+    width: 450px;
+    margin-left: 100px;
+}
+
+.text-container3 b {
+    width: 400px;
+    margin-left: 100px;
+}
+
+}
