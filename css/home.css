@@ -324,52 +324,85 @@ h1 {
 
 }
 
-@media (min-width: 1300px) {
+@media (min-width: 1350px) {
 
 .museum img {
-    width: 1250px;
+    width: 1300px;
 }
-    
+
 .exhibition {
-    width: 1255px;
-    margin-left: 40px;
+    width: 1300px;
 }
-    
-.img-container {
-    margin-left: 160px;
+
+.exhibition img {
+    block-size: 20vh;
+}
+
+.vr-glasses {
+    block-size: 40vh;
+}
+
+.img-small {
+    block-size: 18.5vh;
 }
 
 .text-container2 {
-    width: 400px;
+    margin-top: 100px;
     margin-left: 700px;
 }
 
 .text-color {
-    margin-left: 220px;
+    margin-left: 180px;
 }
 
 .scientific img {
-    width: 450px;
     margin-right: 180px;
 }
 
 .button-events2 {
-    margin-left: 120px;
-    
-}
-
-.text-container3 {
-    gap: 0px;
+    margin-left: 60px;
 }
 
 .text-container3 p {
     width: 450px;
-    margin-left: 100px;
+    margin-left: 110px;
 }
 
 .text-container3 b {
-    width: 400px;
-    margin-left: 100px;
+    width: 450px;
+    margin-left: 110px;
 }
 
+}
+
+@media (min-width: 1500px) {
+
+.museum img {
+    width: 1450px;
+}
+    
+.exhibition {
+    width: 1450px;
+}
+
+.scientific img {
+    margin-right: 320px;
+}
+
+.button-events2 {
+    margin-left: 40px;
+}
+
+}
+
+/*larger size than 1500px, need more work*/
+@media (min-width: 1900px) {
+
+.museum img {
+    width: 1850px;
+}
+
+.exhibition {
+    width: 1850px;
+}
 }

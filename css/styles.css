@@ -292,14 +292,36 @@ nav {
 
 }
 
-@media (min-width: 1300px) {
-
-.logo-nav {
-    margin-left: -360px;
-}
+@media (min-width: 1350px) {
 
 nav {
-    margin-right: 160px;
+    width: 450px;
+    margin-top: 8px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+nav a {
+    font-size: 0.9rem;
+    font-weight: 400;
+}   
+
+.logo-nav {
+    block-size: 11vh;
+    margin-left: -300px;
+}
+
+}
+
+@media (min-width: 1500px) {
+
+nav {
+    margin-top: 4px;
+    margin-right: 60px;
+}
+    
+.logo-nav {
+    margin-left: -400px;
 }
 
 }
