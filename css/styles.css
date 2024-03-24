@@ -83,7 +83,7 @@ nav a:hover {
     font-size: 0.5rem;
     color: #000;
     float: right;
-    margin-top: -45px;
+    margin-top: -40px;
     margin-right: 10px;
 }
 
@@ -159,8 +159,8 @@ b:hover {
 }
 
 .menu {
-    margin-left: 40px; 
-    margin-right: 35px;
+    margin-left: 230px; 
+    margin-right: 40px;
 }
 
 }
@@ -192,7 +192,7 @@ nav {
 @media (min-width: 600px) {
 
 .logo-nav {
-    margin-left: -160px;
+    margin-left: 0px;
 }
 
 .menu {
