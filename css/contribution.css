@@ -1,10 +1,41 @@
 .museum-building {
-    background-image: url("/images/museum-building.png");
-    background-size: cover;
+    background-image: url("/images/museum-buildingS.png");
+    background-size: auto;
     background-repeat: no-repeat;
-    width: 50px;
-    border-radius: 60px;
-    padding: 20%;
+    padding: 100%;
     margin-top: 20px;
-    margin-left: 50px;
+}
+
+.h1 {
+    background-color: #EFC0C0;
+    color: #001D56;
+    text-align: center;
+    border-radius: 10px;
+    width: 220px;
+}
+
+.button-contact {
+    background: #1B5992;
+    color: #fff;
+    width: 200px;
+}
+
+.library {
+    background-image: url("/images/libraryS.png");
+    background-size: auto;
+    background-repeat: no-repeat;
+    padding: 20%;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+@media (min-width: 375px) {
+
+.h1 {
+    transform: translate(-50%, -50%);
+    margin-top: -250px;
+    margin-left: 200px;
+    margin-bottom: 60px;
+}
+
 }
