@@ -169,7 +169,7 @@ b:hover {
 
 .logo-nav {
     block-size: 8vh;
-    margin-left: -20px;
+    margin-left: 20px;
 }
     
 .hamburger-menu {
@@ -215,7 +215,7 @@ nav {
 
 .logo-nav {
     block-size: 9vh;
-    margin-left: -20px;
+    margin-left: 20px;
 }
 
 nav {
@@ -283,7 +283,7 @@ b {
 @media (min-width: 1000px) {
 
 .logo-nav {
-    margin-left: -160px;
+    margin-left: 100px;
 }
     
 nav {
@@ -308,7 +308,7 @@ nav a {
 
 .logo-nav {
     block-size: 11vh;
-    margin-left: -300px;
+    margin-left: 150px;
 }
 
 }
@@ -322,7 +322,7 @@ nav {
 }
     
 .logo-nav {
-    margin-left: -400px;
+    margin-left: 200px;
 }
 
 }
