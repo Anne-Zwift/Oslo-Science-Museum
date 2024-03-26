@@ -1,0 +1,10 @@
+.museum-building {
+    background-image: url("/images/museum-building.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 50px;
+    border-radius: 60px;
+    padding: 20%;
+    margin-top: 20px;
+    margin-left: 50px;
+}
