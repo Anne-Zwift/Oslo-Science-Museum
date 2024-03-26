@@ -2,10 +2,11 @@
     background-image: url("/images/museum-wall.png");
     background-size: cover;
     background-repeat: no-repeat;
+    width: 50px;
     border-radius: 60px;
-    padding: 40%;
+    padding: 25%;
     margin-top: 20px;
-    margin-left: 10px;
+    margin-left: 50px;
 }
 
 /*text-color for "contact us"*/
@@ -23,21 +24,33 @@
     background-color: #D9D9D9;
 }
 
-.opening-hours {
+.opening-hours2 p {
+    font-size: 0.7rem;
     text-align: center;
-    padding-top: 40px;
-    padding-bottom: 40px;
-    margin-top: 40px;
+    margin-top: 0px;
+    margin-left: 0px;
     margin-bottom: 0px;
+    padding-left: 0px;
 }
 
-.form-size {
+.opening-hours2 {
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.form-input {
     display: block;
     font-size: 0.6rem;
-    width: 250px;
+    width: 220px;
     padding: 5px;
-    margin-top: 2px;
-    margin-bottom: 6px;
+    margin-top: 8px;
+    margin-bottom: 12px;
+}
+
+.text-label {
+    font-size: 0.7rem;
+    margin-left: 10px;
 }
 
 select#category {
@@ -50,22 +63,29 @@ label {
 }
 
 .button-submit {
+    font-size: 0.7rem;
     background-color: #1B5992;
     color: #fff;
-    padding: 3px 80px;
+    width: 220px;
+    padding: 5px;
     margin-top: 10px;
-    margin-left: 10px;
+    margin-left: 5px;
     margin-bottom: 60px;
 }
 
 @media (min-width: 375px) {
 
-.form-size {
-    margin-left: 40px;
+.contact-image {
+    margin-left: 70px;
 }
 
-label {
-    margin-left: 40px;
+.form-input {
+    width: 260px;
+    margin-left: 20px;
+}
+
+.text-label {
+    margin-left: 20px;
 }
 
 legend {
@@ -73,7 +93,7 @@ legend {
 }
 
 .button-submit {
-    margin-left: 50px;
+    margin-left: 45px;
 }
 
 }
@@ -85,9 +105,12 @@ legend {
 }
 
 .contact-image {
+    display: flex;
     flex-direction: column;
-    padding: 20%;
-    border-radius: 50px;
+    padding: 15%;
+    border-radius: 40px;
+    margin-left: 10px;
+    margin-bottom: 20px;
 }
 
 .text-color {
@@ -96,24 +119,72 @@ legend {
     margin-left: 20px;
 }
 
-.font-size {
+.form-input {
+    width: 300px;
+    margin-left: 0px;
+}
+    
+.text-label {
+    margin-left: 0px;
+}
+      
+.button-submit {
+    margin-left: 0px;
+    width: 300px;
+}
+    
+}
+
+@media (min-width: 600px) {
+
+.opening-hours2 {
+    text-align: left;
+    margin-left: 20px;
+}
+
+.opening-hours2 p {
     text-align: left;
 }
 
-.form-size {
-    margin-left: 80px;
+.form-input {
+    width: 500px;
+    margin-left: 0px;
 }
-    
-label {
-    margin-left: 80px;
-}
-    
-legend {
-    margin-left: 80px;
-}
-    
+
 .button-submit {
-    margin-left: 93px;
+    margin-left: 110px;
+    width: 300px;
 }
-    
+
+}
+
+@media (min-width: 768px) {
+
+.text-color {
+    width: 300px;
+}
+
+.opening-hours2 p {
+    margin-left: 20px;
+}
+
+.form-input {
+    margin-left: 20px;
+}
+
+.text-label {
+    margin-left: 20px;
+}
+
+}
+
+/*more work to be done*/
+@media (min-width: 1000px) {
+
+.text-color {
+    margin-top: 80px;
+    margin-left: 60px;
+    width: 300px;
+}
+
 }
