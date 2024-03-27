@@ -108,6 +108,7 @@
 }
 
 }
+
 /*tablet*/
 @media (min-width: 1000px) {
 
@@ -128,3 +129,26 @@
 
 }
 /*make sizes up to 1950px*/
+@media (min-width: 1350px) {
+
+.h1 {
+    padding: 25px;
+    margin-top: 300px;
+    margin-left: -660px;
+}
+    
+.text-container {
+    width: 450px;
+}
+        
+}
+
+@media (min-width: 1500px) {
+
+.h1 {
+    padding: 25px;
+    margin-top: 300px;
+    margin-left: -960px;
+}
+                    
+}
