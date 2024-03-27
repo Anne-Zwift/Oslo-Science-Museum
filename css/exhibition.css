@@ -1,0 +1,15 @@
+.human {
+    background-image: url("#");
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 30%;
+    margin-top: 40px;
+}
+
+h1 {
+    background-color: #1B5992;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+}
