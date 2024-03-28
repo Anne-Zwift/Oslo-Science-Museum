@@ -3,13 +3,50 @@
     background-size: cover;
     background-repeat: no-repeat;
     padding: 50%;
-    margin-top: 40px;
+    margin-top: 20px;
 }
 
-h1 {
+.text-on-top-one {
+    transform: translate(-50%, -50%);
     background-color: #1B5992;
     color: #fff;
     text-align: center;
-    padding: 10px;
+    width: 200px;
+    padding: 5px;
     border-radius: 10px;
+    margin-top: -210px;
+    margin-left: 150px;
+}
+
+.text-container-one {
+    margin-top: 150px;
+}
+
+.skeleton {
+    background-image: url("/images/skeleton.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 50%;
+    margin-top: 20px;
+}
+
+.text-container-two {
+    background-color: #000;
+    color: #fff;
+    font-size: 0.7rem;
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;  
+}
+
+.text-container-two b {
+color: #fff;
+}
+
+.cosmology {
+    background-image: url("/images/cosmology.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 10%;
+    margin-top: 0px;
 }
