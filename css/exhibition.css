@@ -5,7 +5,7 @@
     padding: 50%;
     margin-top: 20px;
 }
-
+/*nav is having a problem with text-on-top. Must be fixed*/
 .text-on-top-one {
     transform: translate(-50%, -50%);
     background-color: #1B5992;
@@ -14,7 +14,7 @@
     width: 200px;
     padding: 5px;
     border-radius: 10px;
-    margin-top: -210px;
+    margin-top: -220px;
     margin-left: 150px;
 }
 
@@ -40,7 +40,7 @@
 }
 
 .text-container-two b {
-color: #fff;
+    color: #fff;
 }
 
 .cosmology {
@@ -142,3 +142,103 @@ color: #fff;
     margin-left: 10px;
     margin-bottom: 40px;
 }
+
+@media (min-width: 375px) {
+
+.text-on-top-one {
+    margin-top: -300px;
+    margin-left: 250px;
+}
+
+.text-container-one {
+    margin-top: 250px;
+}
+
+.text-on-top-two {
+    margin-top: -300px;
+    margin-left: 180px;
+}
+
+.text-container-four {
+margin-top: 240px;    
+}
+
+.text-on-top-three {
+    margin-top: -320px;
+}
+
+.text-container-six {
+    margin-top: 280px;
+}
+
+}
+
+@media (min-width: 425px) {
+
+.text-on-top-one {
+    margin-top: -350px;
+}
+
+.text-container-one {
+    margin-top: 300px;
+}
+
+.text-on-top-two {
+    margin-left: 200px;
+}
+
+}
+
+/*tablet*/
+
+@media (min-width: 600px) {
+
+.text-on-top-one {
+    padding: 25px;
+    margin-top: -500px;
+    margin-left: 450px;
+}
+    
+.text-container-one {
+    width: 450px;
+    margin-top: 400px;
+    margin-left: 40px;
+}
+
+.text-container-three {
+    width: 450px;
+    margin-left: 40px;
+}
+   
+.text-on-top-two {
+    padding: 25px;
+    margin-top: -500px;
+    margin-left: 300px;
+}
+
+.text-container-four {
+    width: 450px;
+    margin-top: 400px;  
+    margin-left: 60px;    
+}
+
+.text-on-top-three {
+    padding: 25px;
+    margin-top: -450px;
+    margin-left: 120px;
+}
+
+.text-container-six {
+    width: 450px;
+    margin-top: 380px;
+    margin-left: 40px;
+}
+
+.button-contact {
+    width: 300px;
+    margin-left: 40px;
+}
+
+}
+
+/*larger sizes*/
