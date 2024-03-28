@@ -36,7 +36,7 @@
     font-size: 0.7rem;
     text-align: center;
     padding: 20px;
-    margin-top: 20px;  
+    margin-top: 40px;  
 }
 
 .text-container-two b {
@@ -82,7 +82,63 @@ color: #fff;
 }
 
 .text-container-four {
-    margin-top: 150px;
     font-size: 0.7rem;
     text-align: center;
+    margin-top: 150px;
+    margin-bottom: 40px;
+}
+
+.museum-at-night {
+    background-image: url("/images/museum-at-night.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 50%;
+}
+
+.text-container-five {
+    background-color: #000;
+    color: #fff;
+    font-size: 0.7rem;
+    text-align: center;
+    padding: 10px;
+    margin-top: 0px;
+    margin-bottom: 40px;
+}
+
+.text-container-five b {
+    color: #fff;
+}
+
+.teacher {
+    background-image: url("/images/teacher.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 50%;
+}
+
+.text-on-top-three {
+    transform: translate(-50%, -50%);
+    background-color: #1B5992;
+    color: #fff;
+    text-align: center;
+    width: 125px;
+    padding: 4px;
+    border-radius: 10px;
+    margin-top: -230px;
+    margin-left: 75px;
+}
+
+.text-container-six {
+    margin-top: 200px;
+    margin-left: 10px;
+    margin-bottom: 40px;
+}
+
+.button-contact {
+    background-color: #1B5992;
+    color: #fff;
+    width: 200px;
+    padding: 5px;
+    margin-left: 10px;
+    margin-bottom: 40px;
 }
