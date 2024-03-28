@@ -50,3 +50,39 @@ color: #fff;
     padding: 10%;
     margin-top: 0px;
 }
+
+.text-container-three {
+    margin-top: 20px;
+}
+
+.open-science {
+    background-image: url("/images/open-science.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 50%;
+}
+
+.professor {
+    background-image: url("/images/professor.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 50%;
+}
+
+.text-on-top-two {
+    transform: translate(-50%, -50%);
+    background-color: #1B5992;
+    color: #fff;
+    text-align: center;
+    width: 225px;
+    padding: 14px;
+    border-radius: 10px;
+    margin-top: -210px;
+    margin-left: 135px;
+}
+
+.text-container-four {
+    margin-top: 150px;
+    font-size: 0.7rem;
+    text-align: center;
+}
