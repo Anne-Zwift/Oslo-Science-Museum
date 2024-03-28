@@ -1,8 +1,8 @@
 .human {
-    background-image: url("#");
+    background-image: url("/images/human.png");
     background-size: cover;
     background-repeat: no-repeat;
-    padding: 30%;
+    padding: 50%;
     margin-top: 40px;
 }
 
