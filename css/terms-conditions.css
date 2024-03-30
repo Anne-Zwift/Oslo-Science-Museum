@@ -45,36 +45,28 @@ li {
 @media (min-width: 600px) {
 
 .section2 {
-    width: 350px;
+    width: 345px;
 }
 
 .section3 {
-    width: 350px;
+    width: 345px;
 }
 
 .section4 {
-    width: 350px;
+    width: 345px;
 }
 
 }
 
 @media (min-width: 768px) {
-
-.section2 {
-    width: 325px;
-}
-    
-.section3 {
-    width: 325px;
-}
     
 .section4 {
-    width: 345px;
     padding-right: 20px;
     float: right;
-    margin-top: -1410px;
+    margin-top: -1325px;
 }
       
+/*text needs margin to the bottom*/
 }
 
 @media (min-width: 1000px) {
@@ -93,5 +85,5 @@ li {
     float: right;
     margin-top: -1310px;
 }
-                   
+
 }
