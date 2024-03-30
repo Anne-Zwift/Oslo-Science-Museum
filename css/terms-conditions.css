@@ -1,0 +1,97 @@
+h2 {
+    font-size: 0.7rem;
+    font-weight: 200;
+    font-style: oblique;
+}
+
+b {
+    margin-left: 10px;
+}
+
+p {
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-bottom: 40px;
+    font-size: 0.7rem;
+}
+
+li {
+    font-size: 0.7rem;
+    padding: 4px;
+}
+
+.section1 {
+    margin-left: 10px;
+    margin-bottom: 20px;
+}
+
+.section3 p {
+    margin-left: -12px;
+    margin-bottom: 0px;
+}
+
+.section4 a:hover {
+    color: #1B5992;
+    font-size: larger;
+}
+
+.link {
+    color: #000;
+    text-decoration-line: underline;
+}
+
+/*tablet*/
+
+@media (min-width: 600px) {
+
+.section2 {
+    width: 350px;
+}
+
+.section3 {
+    width: 350px;
+}
+
+.section4 {
+    width: 350px;
+}
+
+}
+
+@media (min-width: 768px) {
+
+.section2 {
+    width: 325px;
+}
+    
+.section3 {
+    width: 325px;
+}
+    
+.section4 {
+    width: 345px;
+    padding-right: 20px;
+    float: right;
+    margin-top: -1410px;
+}
+      
+}
+
+@media (min-width: 1000px) {
+
+.section2 {
+    width: 425px;
+}
+        
+.section3 {
+    width: 425px;
+}
+        
+.section4 {
+    width: 425px;
+    padding-right: 20px;
+    float: right;
+    margin-top: -1310px;
+}
+                   
+}
