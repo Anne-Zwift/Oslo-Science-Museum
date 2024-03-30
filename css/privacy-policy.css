@@ -1,0 +1,128 @@
+.section1 {
+    margin-left: 10px;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 0.7rem;
+    font-weight: 200;
+    font-style: oblique;
+}
+
+b {
+    margin-left: 10px;
+}
+
+p {
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-bottom: 40px;
+    font-size: 0.7rem;
+}
+
+li {
+    font-size: 0.7rem;
+    padding: 4px;
+}
+
+.section5 a:hover {
+    color: #1B5992;
+    font-size: larger;
+}
+
+.link {
+    color: #000;
+    text-decoration-line: underline;
+}
+
+/*tablet*/
+
+@media (min-width: 600px) {
+
+.section2 {
+    width: 350px;
+}
+
+.section3 {
+    width: 350px;
+}
+
+.section4 {
+    width: 350px;
+}
+
+.section5 {
+    width: 350px;
+}
+
+.section6 {
+    width: 350px;
+}
+
+}
+
+@media (min-width: 768px) {
+
+.section2 {
+    width: 325px;
+}
+    
+.section3 {
+    width: 325px;
+}
+    
+.section4 {
+    width: 325px;
+    padding-right: 20px;
+    float: right;
+    margin-top: -1575px;
+}
+    
+.section5 {
+    width: 325px;
+    padding-right: 20px;
+    float: right;
+    margin-top: -870px;
+}
+
+.section6 {
+    width: 325px;
+    padding-right: 20px;
+    float: right;
+    margin-top: -720px;
+}
+    
+}
+
+@media (min-width: 1000px) {
+
+.section2 {
+    width: 425px;
+}
+        
+.section3 {
+    width: 425px;
+}
+        
+.section4 {
+    width: 425px;
+    padding-right: 20px;
+    float: right;
+    margin-top: -1310px;
+}
+        
+.section5 {
+    width: 425px;
+    padding-right: 20px;
+    float: right;
+    margin-top: -680px;
+}
+    
+.section6 {
+    width: 425px;
+    padding-right: 20px;
+    float: right;
+    margin-top: -520px;
+}
+        
+}
