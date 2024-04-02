@@ -83,16 +83,17 @@ main {
     width: 550px;
 }
 
-.text-container {
-    width: 550px;
+h1 {
+    width: 450px;
     text-align: left;
     margin-left: 20px;
 }
 
-.text-container2 {
-    width: 550px;
+.text-container {
+    width: 450px;
     text-align: left;
     margin-left: 20px;
+    margin-bottom: 60px;
 }
 
 .vr-glasses {
@@ -103,8 +104,14 @@ main {
     margin-right: 100px;
 }
 
+.text-container2 {
+    width: 450px;
+    text-align: left;
+    margin-left: 20px;
+}
+
 .text-color {
-    width: 550px;
+    width: 450px;
     text-align: left;
     margin-left: 20px;
 }
@@ -113,7 +120,13 @@ main {
     width: 550px;
 }
 
+.text-container3 {
+    width: 450px;
+    margin-left: 65px;
 }
+
+}
+
 /*tablet*/
 
 @media (min-width: 768px) {
