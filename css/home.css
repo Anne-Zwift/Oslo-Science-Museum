@@ -338,6 +338,10 @@ h1 {
     margin-bottom: 40px;
 }
 
+.line {
+    margin-top: 60px;
+}
+
 .text-container3 {
     margin-left: 150px;
 }
@@ -420,13 +424,34 @@ h1 {
     margin-top: 40px;
     margin-bottom: 40px;
 }
-    
+  
+.section-container {
+    width: 500px;
+    margin-top: -220px;
+    margin-left: 340px;
+}
+
+.section-container p {
+    font-size: 1rem;
+    width: 450px;
+}
+
+.button-events {
+    padding: 10px;
+}
+
 .exhibition {
     width: 1400px;
+    margin-left: 40px;
 }
 
 .text-container2 {
     margin-left: 800px;
+}
+
+.text-container2 p {
+    font-size: 0.8rem;
+    width: 550px;
 }
 
 .img-container {
@@ -434,15 +459,20 @@ h1 {
 }
 
 .scientific img {
-    margin-right: 220px;
+    width: 500px;
+    margin-top: -320px;
+    margin-right: 180px;
 }
 
 .text-color {
-    margin-left: 270px;
+    font-size: 0.9rem;
+    width: 500px;
+    margin-left: 210px;
 }
 
 .button-events2 {
-    margin-left: 120px;
+    padding: 10px;
+    margin-left: 110px;
 }
 
 .text-container3 {
@@ -453,7 +483,23 @@ h1 {
 
 }
 
-/*larger size than 1500px, need more work*/
+@media (min-width: 1600px) {
+
+
+.museum img {
+    width: 1500px;
+}
+      
+.exhibition {
+    width: 1500px;
+}
+
+.button-events2 {
+    margin-left: 20px;
+}
+
+}
+
 @media (min-width: 1900px) {
 
 .museum img {
@@ -466,6 +512,7 @@ h1 {
 }
 
 .vr-glasses {
+    margin-top: -5px;
     margin-left: 200px;
 }
 
@@ -474,11 +521,11 @@ h1 {
 }
 
 .scientific img {
-    margin-right: 400px;
+    margin-right: 360px;
 }
 
 .text-color {
-    margin-left: 400px;
+    margin-left: 360px;
 }
 
 .button-events2 {
