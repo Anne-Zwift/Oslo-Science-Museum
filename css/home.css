@@ -16,16 +16,26 @@ main {
 .button-events {
     background-color: #1B5992;
     color: #fff;
+    padding: 5px 10px;
     margin-top: 10px;
     margin-bottom: 20px;
 }
 
 .scientific img {
     width: 250px;
+    margin-bottom: 10px;
 }
 
 .text-color {
     color: #1B5992;
+}
+
+.button-events2 {
+    background-color: #1B5992;
+    color: #fff;
+    padding: 5px 10px;
+    margin-top: 10px;
+    margin-bottom: 20px;
 }
 
 @media (min-width: 375px) {
