@@ -1,3 +1,7 @@
+main {
+    text-align: center;
+}
+
 .museum img {
     margin-top: 20px;
     width: 250px;
@@ -9,8 +13,8 @@
     margin-top: 20px;
 }
 
-main {
-    text-align: center;
+.exhibition img {
+    border: 1px solid #000;
 }
 
 .button-events {
@@ -121,9 +125,8 @@ main {
 .section-container {
     background-color: #dbacacb9;
     text-align: left;
-    font-weight: 600;
     width: 300px;
-    margin-top: -180px;
+    margin-top: -170px;
     margin-left: 180px;
     transform: translate(-50%, -50%);
 }
@@ -138,7 +141,8 @@ h1 {
     width: 250px;
 }
 
-.button-events {
+.button-events p {
+    width: 200px;
     margin-left: 20px;
 }
 
@@ -193,7 +197,6 @@ h1 {
     grid-template-columns: repeat(2, 1fr);
     font-size: 0.7rem;
     text-align: left;
-    column-width: 250px;
     gap: 60px;
     padding-top: 40px;
     padding-bottom: 40px;
@@ -217,8 +220,8 @@ h1 {
 }
 
 .exhibition {
-    width: 850px;
-    margin-left: 23px;
+    width: 842px;
+    margin-left: 20px;
 }
 
 .exhibition img {
@@ -250,7 +253,11 @@ h1 {
 }
 
 .button-events2 {
-    margin-left: -420px;
+    margin-left: 20px;
+}
+
+.text-container3 {
+    width: 820px;
 }
 
 }
@@ -260,7 +267,7 @@ h1 {
 .museum img {
     width: 950px;
 }
-    
+
 .exhibition {
     width: 945px;
     margin-left: 20px;
@@ -271,7 +278,11 @@ h1 {
 }
 
 .button-events2 {
-    margin-left: -500px;
+    margin-left: 0px;
+}
+
+.text-container3 {
+    margin-left: 60px;
 }
 
 }
@@ -279,11 +290,11 @@ h1 {
 @media (min-width: 1100px) {
 
 .museum img {
-    width: 1050px;
+    width: 1040px;
 }
   
 .exhibition {
-    width: 1055px;
+    width: 1040px;
     margin-left: 20px;
 }
 
@@ -304,7 +315,7 @@ h1 {
 
 .scientific img {
     width: 450px;
-    margin-right: 60px;
+    margin-right: 40px;
 }
 
 .button-events2 {
@@ -313,17 +324,21 @@ h1 {
     margin-bottom: 40px;
 }
 
+.text-container3 {
+    margin-left: 150px;
+}
+
 }
 
 @media (min-width: 1200px) {
 
 .museum img {
-    width: 1150px;
+    width: 1100px;
 }
 
 .exhibition {
-    width: 1155px;
-    margin-left: 20px;
+    width: 1100px;
+    margin-left: 40px;
 }
 
 .scientific img {
@@ -332,13 +347,7 @@ h1 {
 }
 
 .button-events2 {
-    margin-left: -40px;
-}
-
-.text-container3 {
-    width: 800px;
-    margin-left: 200px;
-    gap: 150px;
+    margin-left: 0px;
 }
 
 }
@@ -346,11 +355,12 @@ h1 {
 @media (min-width: 1350px) {
 
 .museum img {
-    width: 1300px;
+    width: 1225px;
 }
 
 .exhibition {
-    width: 1300px;
+    width: 1225px;
+    margin-left: 53px;
 }
 
 .exhibition img {
@@ -383,7 +393,8 @@ h1 {
 }
 
 .text-container3 {
-    margin-left: 300px;
+    width: 1050px;
+    gap: 40px;
 }
 
 }
@@ -391,23 +402,39 @@ h1 {
 @media (min-width: 1500px) {
 
 .museum img {
-    width: 1450px;
+    width: 1400px;
+    margin-top: 40px;
+    margin-bottom: 40px;
 }
     
 .exhibition {
-    width: 1450px;
+    width: 1400px;
+}
+
+.text-container2 {
+    margin-left: 800px;
+}
+
+.img-container {
+    margin-left: 140px;
 }
 
 .scientific img {
-    margin-right: 320px;
+    margin-right: 220px;
+}
+
+.text-color {
+    margin-left: 270px;
 }
 
 .button-events2 {
-    margin-left: 40px;
+    margin-left: 120px;
 }
 
 .text-container3 {
-    margin-left: 400px;
+    width: 1200px;
+    margin-left: 120px;
+    gap: 150px;
 }
 
 }
@@ -416,23 +443,24 @@ h1 {
 @media (min-width: 1900px) {
 
 .museum img {
-    width: 1850px;
+    width: 1800px;
 }
 
 .exhibition {
-    width: 1850px;
+    width: 1800px;
+    margin-left: 40px;
 }
 
 .vr-glasses {
-    margin-left: 300px;
+    margin-left: 200px;
 }
 
 .text-container2 {
-    margin-left: 950px;
+    margin-left: 1000px;
 }
 
 .scientific img {
-    margin-right: 520px;
+    margin-right: 400px;
 }
 
 .text-color {
@@ -440,11 +468,11 @@ h1 {
 }
 
 .button-events2 {
-    margin-left: 300px;
+    margin-left: 180px;
 }
 
 .text-container3 {
-    margin-left: 500px;
+    margin-left: 340px;
 }
 
 }

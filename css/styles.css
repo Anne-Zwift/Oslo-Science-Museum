@@ -50,12 +50,14 @@ header {
 nav {
     display: none;
     position: absolute;
-    padding: 60px;
+    padding: 40px;
     background-color: #fff;
     text-align: left;
 }
 
 nav a {
+    display: inline-flex;
+    font-size: 0.7rem;
     text-decoration: none;
     color: #1B5992;
 }
