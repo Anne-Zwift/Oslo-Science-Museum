@@ -41,7 +41,7 @@
                     </div>
                 </div>
             </section>
-            <section class="background-color">
+            <aside class="background-color">
                 <div class="opening-hours2">
                     <b>Customer service</b>
                     <p><i>Hours</i></p>
@@ -53,14 +53,14 @@
                     <p>Saturday: 9:00 – 16:00</p>
                     <p>Sunday: 9:00 – 13:00</p>            
                 </div>
-            </section>
-            <section class="background-color">
+            </aside>
+            <aside class="background-color">
                 <form action="./contact.html" id="register" title="contact information">
                     <label for="firstname" class="text-label">Name</label>
                     <input type="text" id="firstname" placeholder="first name" class="form-input">
                     <label for="surname" class="text-label">Surname</label>
                     <input type="text" id="surname" placeholder="surname" class="form-input">
-                    <label for="email"class="text-label">Mail</label>
+                    <label for="email" class="text-label">Mail</label>
                     <input type="email" id="email" placeholder="name@xample.com" class="form-input">
                     <label for="category" class="text-label">Category</label>
                     <select name="category" id="category" class="form-input">
@@ -72,18 +72,20 @@
                         <option value="Special events and exhibitions">Special events and exhibitions</option>
                         <option value="other">Other</option>
                     </select>
-                    <legend class="text-label">Message</legend>
-                    <textarea name="message" id="message" cols="5" rows="5" class="form-input" placeholder="Type your message ..."></textarea>
-                    <a href="./contact.html"><button class="button-submit">Submit</button></a>
+                    <fieldset>
+                        <legend class="text-label">Message</legend>
+                        <textarea name="message" id="message" cols="5" rows="5" class="form-input" placeholder="Type your message ..."></textarea>
+                        <a href="./contact.html" class="button-submit">Submit</a>
+                    </fieldset>
                 </form>
-            </section>
+            </aside>
         </main>
         <footer class="footer">
             <div>
                 <a href="./index.html" title="home page">
                 <img src="./images/Logo-mobile.png" alt="logo" class="logo"></a>
             </div>
-            <section>
+            <aside>
                 <a href="./contact.html" title="contact us site">
                 <p><b>Visit</b></p></a>
                 <div class="visit">
@@ -91,8 +93,8 @@
                     <p>Kjeldsåsveien 143</p>
                     <p>0491 Oslo</p>
                 </div>
-            </section>
-           <section>
+            </aside>
+           <aside>
             <a href="./contact.html" title="contact us site">
             <p><b>Customer service</b></p></a>
             <div class="opening-hours">
@@ -105,8 +107,8 @@
                 <p>Saturday: 9:00 – 16:00</p>
                 <p>Sunday: 9:00 – 13:00</p>            
             </div>
-           </section>
-           <section>
+           </aside>
+           <aside>
             <div class="caption">     
                 <a href="./privacy-policy.html" title="privacy policy site">Privacy Policy</a>
                 <a href="./contact.html" title="contact us site">Contact Us</a>
@@ -117,7 +119,7 @@
                 <i class="fa-brands fa-facebook"></i>
                 <i class="fa-brands fa-instagram"></i>
             </div>
-           </section>
+           </aside>
             <div class="copyright">&copy; 2024 Oslo Science Museum</div>
         </footer>
     </body>
