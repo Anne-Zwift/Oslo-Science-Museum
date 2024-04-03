@@ -16,12 +16,13 @@
 
 .text-container {
     width: 250px;
+    margin-left: 10px;
 }
 
 .button-contact {
     background: #1B5992;
     color: #fff;
-    width: 200px;
+    padding: 5px 40px;
 }
 
 .library {
@@ -35,16 +36,22 @@
 
 @media (min-width: 375px) {
 
+.museum-building {
+    padding: 40%;
+    margin-bottom: 20px;
+}
+
 .h1 {
     transform: translate(-50%, -50%);
-    margin-top: -50px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    margin-top: -60px;
     margin-left: 220px;
     margin-bottom: 0px;
 }
 
 .text-container {
     width: 350px;
-    margin-top: 20px;
 }
 
 }
