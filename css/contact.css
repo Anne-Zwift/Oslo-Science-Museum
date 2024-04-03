@@ -1,3 +1,7 @@
+main {
+    margin-bottom: 20px;
+}
+
 .contact-image {
     background-image: url("/images/museum-wall.png");
     background-size: cover;
@@ -22,6 +26,7 @@
 
 .background-color{
     background-color: #D9D9D9;
+    padding-bottom: 40px;
 }
 
 .opening-hours2 p {
@@ -42,15 +47,15 @@
 .form-input {
     display: block;
     font-size: 0.6rem;
-    width: 220px;
     padding: 5px;
     margin-top: 8px;
+    margin-left: 15px;
     margin-bottom: 12px;
 }
 
 .text-label {
     font-size: 0.7rem;
-    margin-left: 10px;
+    margin-left: 15px;
 }
 
 select#category {
@@ -66,17 +71,24 @@ label {
     font-size: 0.7rem;
     background-color: #1B5992;
     color: #fff;
-    width: 220px;
-    padding: 5px;
-    margin-top: 10px;
-    margin-left: 5px;
-    margin-bottom: 60px;
+    padding: 5px 80px;
+    margin-left: 15px;
 }
 
 @media (min-width: 375px) {
 
 .contact-image {
     margin-left: 70px;
+}
+
+.opening-hours2 {
+    text-align: left;
+    margin-left: 25px;
+}
+
+.opening-hours2 p {
+    text-align: left;
+    margin-left: 0px;
 }
 
 .form-input {
@@ -86,10 +98,6 @@ label {
 
 .text-label {
     margin-left: 20px;
-}
-
-legend {
-    margin-left: 40px;
 }
 
 .button-submit {
@@ -118,42 +126,19 @@ legend {
     text-align: left;
     margin-left: 20px;
 }
-
-.form-input {
-    width: 300px;
-    margin-left: 0px;
-}
-    
-.text-label {
-    margin-left: 0px;
-}
-      
-.button-submit {
-    margin-left: 0px;
-    width: 300px;
-}
     
 }
 
 @media (min-width: 600px) {
 
-.opening-hours2 {
-    text-align: left;
-    margin-left: 20px;
-}
-
-.opening-hours2 p {
-    text-align: left;
-}
-
 .form-input {
     width: 500px;
-    margin-left: 0px;
 }
 
 .button-submit {
-    margin-left: 110px;
-    width: 300px;
+    padding: 6px 120px;
+    font-size: 0.8rem;
+    margin-left: 120px;
 }
 
 }
@@ -168,23 +153,73 @@ legend {
     margin-left: 20px;
 }
 
-.form-input {
-    margin-left: 20px;
 }
 
-.text-label {
-    margin-left: 20px;
-}
-
-}
-
-/*more work to be done*/
 @media (min-width: 1000px) {
 
 .text-color {
     margin-top: 80px;
     margin-left: 60px;
     width: 300px;
+}
+
+.form-input {
+    width: 400px;
+}
+
+.form-container2 {
+    float: right;
+    width: 500px;
+    margin-top: -308px;
+}
+
+.button-submit {
+    padding: 6px 160px;
+    margin-left: 32px;
+}
+
+}
+
+@media (min-width: 1350px) {
+
+.form-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+}
+
+.form-container2 {
+   margin-left: 500px;
+}
+
+}
+
+@media (min-width: 1500px) {
+
+.contact-image {
+    margin-top: 100px;
+    margin-left: 50px;
+    margin-bottom: 80px;
+    padding: 10%;
+}
+
+.text-color {
+    margin-top: 150px;
+}
+
+.opening-hours2 {
+    margin-left: 70px;
+}
+
+.form-container {
+    margin-left: 50px;
+}
+
+.form-input {
+    width: 500px;
+}
+
+.form-container2 {
+    margin-left: 700px;
 }
 
 }
