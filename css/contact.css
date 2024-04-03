@@ -145,7 +145,13 @@ label {
 
 @media (min-width: 768px) {
 
+.contact-image {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
 .text-color {
+    margin-top: 40px;
     width: 300px;
 }
 
@@ -161,6 +167,15 @@ label {
     margin-top: 80px;
     margin-left: 60px;
     width: 300px;
+}
+
+.opening-hours2 {
+    padding-top: 140px;
+    padding-bottom: 0px;
+}
+
+.background-color {
+    padding-bottom: 200px;
 }
 
 .form-input {
@@ -181,6 +196,10 @@ label {
 }
 
 @media (min-width: 1350px) {
+
+.text-color {
+    margin-top: 200px;
+}
 
 .form-container {
     display: grid;
@@ -203,7 +222,7 @@ label {
 }
 
 .text-color {
-    margin-top: 150px;
+    margin-top: 170px;
 }
 
 .opening-hours2 {
@@ -220,6 +239,14 @@ label {
 
 .form-container2 {
     margin-left: 700px;
+}
+
+}
+
+@media (min-width: 1900px) {
+
+.text-color {
+    margin-top: 260px;
 }
 
 }
