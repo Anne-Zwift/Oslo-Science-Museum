@@ -181,33 +181,86 @@ h2 {
 
 @media (min-width: 425px) {
 
+.human {
+    padding-top: 600px;
+}
+
 .text-on-top-one {
-    margin-top: -350px;
+    margin-top: -580px;
+    margin-left: 160px;
 }
 
 .text-container-one {
-    margin-top: 300px;
+    width: 350px;
+    margin-top: 0px;
+    margin-left: 20px;
+    padding-top: 450px;
+}
+
+.skeleton {
+    margin-left: 20px;
+}
+
+.text-container-three {
+    width: 350px;
+    margin-left: 20px;
+}
+
+.open-science {
+    margin-left: 140px;
+}
+
+.professor {
+    background-size: cover;
 }
 
 .text-on-top-two {
-    margin-left: 200px;
+    margin-top: -560px;
+    margin-left: 70px;
 }
 
+.text-container-four {
+    width: 350px;
+    margin-top: 500px;
+    margin-left: 25px;
+}
+   
+.museum-at-night {
+    background-size: cover;
+}
+
+.text-container-six {
+    width: 350px;
+    margin-left: 20px;
+}
 }
 
 /*tablet*/
 
 @media (min-width: 600px) {
 
-.text-on-top-one {
-    padding: 25px;
-    margin-top: -500px;
-    margin-left: 450px;
+.human {
+    padding-top: 800px;
 }
-    
+
+.text-on-top-one {
+    padding: 35px;
+    margin-top: -740px;
+    margin-left: 220px;
+}
+
+.text-on-top-one, h1{
+    width: 270px;
+}
+
 .text-container-one {
     width: 450px;
-    margin-top: 400px;
+    margin-top: 140px;
+    margin-left: 40px;
+}
+
+/*skeleton needs adjusting*/
+.skeleton {
     margin-left: 40px;
 }
 
@@ -215,11 +268,15 @@ h2 {
     width: 450px;
     margin-left: 40px;
 }
-   
+
+.open-science {
+    margin-left: 210px;
+}
+
 .text-on-top-two {
     padding: 25px;
     margin-top: -500px;
-    margin-left: 300px;
+    margin-left: 140px;
 }
 
 .text-container-four {
@@ -241,10 +298,14 @@ h2 {
 }
 
 .button-contact {
-    width: 300px;
     margin-left: 40px;
 }
 
 }
 
 /*larger sizes*/
+@media (min-width: 768px) {
+
+
+    
+}
