@@ -2,9 +2,10 @@
     background-image: url("/images/human.png");
     background-size: cover;
     background-repeat: no-repeat;
-    padding: 50%;
+    padding-top: 400px;
     margin-top: 20px;
 }
+
 /*nav is having a problem with text-on-top. Must be fixed*/
 .text-on-top-one {
     transform: translate(-50%, -50%);
