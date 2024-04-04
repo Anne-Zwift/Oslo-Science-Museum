@@ -8,27 +8,31 @@
 
 /*nav is having a problem with text-on-top. Must be fixed*/
 .text-on-top-one {
-    transform: translate(-50%, -50%);
     background-color: #1B5992;
     color: #fff;
     text-align: center;
     width: 200px;
     padding: 5px;
     border-radius: 10px;
-    margin-top: -220px;
-    margin-left: 150px;
+    margin-top: -390px;
+    margin-left: 50px;
+}
+
+h2 {
+    margin-top: 60px;
 }
 
 .text-container-one {
-    margin-top: 150px;
+    margin-top: 350px;
+    margin-left: 10px;
 }
 
 .skeleton {
     background-image: url("/images/skeleton.png");
-    background-size: cover;
     background-repeat: no-repeat;
     padding: 50%;
-    margin-top: 20px;
+    padding-bottom: 40px;
+    margin-top: 40px;
 }
 
 .text-container-two {
@@ -53,47 +57,45 @@
 }
 
 .text-container-three {
-    margin-top: 20px;
+    margin-top: 40px;
+    margin-left: 10px;
 }
 
 .open-science {
     background-image: url("/images/open-science.png");
-    background-size: cover;
     background-repeat: no-repeat;
-    padding: 50%;
+    padding-top: 100px;
+    margin-left: 77px;
+    margin-bottom: 40px;
 }
 
 .professor {
     background-image: url("/images/professor.png");
-    background-size: cover;
     background-repeat: no-repeat;
-    padding: 50%;
+    padding-top: 600px;
 }
 
 .text-on-top-two {
-    transform: translate(-50%, -50%);
     background-color: #1B5992;
     color: #fff;
     text-align: center;
-    width: 225px;
-    padding: 14px;
+    width: 250px;
     border-radius: 10px;
-    margin-top: -210px;
-    margin-left: 135px;
+    margin-top: -510px;
+    margin-left: 10px;
 }
 
 .text-container-four {
     font-size: 0.7rem;
     text-align: center;
-    margin-top: 150px;
+    margin-top: 410px;
     margin-bottom: 40px;
 }
 
 .museum-at-night {
     background-image: url("/images/museum-at-night.png");
-    background-size: cover;
     background-repeat: no-repeat;
-    padding: 50%;
+    padding-top: 600px;
 }
 
 .text-container-five {
@@ -101,8 +103,8 @@
     color: #fff;
     font-size: 0.7rem;
     text-align: center;
-    padding: 10px;
-    margin-top: 0px;
+    padding: 40px;
+    margin-top: -20px;
     margin-bottom: 40px;
 }
 
@@ -135,33 +137,36 @@
     margin-bottom: 40px;
 }
 
+.link {
+    color: #1B5992;
+    text-decoration: underline;
+}
+
 .button-contact {
     background-color: #1B5992;
     color: #fff;
-    width: 200px;
-    padding: 5px;
+    padding: 5px 60px;
     margin-left: 10px;
-    margin-bottom: 40px;
 }
 
 @media (min-width: 375px) {
 
 .text-on-top-one {
-    margin-top: -300px;
-    margin-left: 250px;
+    margin-top: -380px;
+    margin-left: 120px;
 }
 
 .text-container-one {
-    margin-top: 250px;
+    margin-top: 350px;
 }
 
 .text-on-top-two {
-    margin-top: -300px;
-    margin-left: 180px;
+    margin-top: -500px;
+    margin-left: 50px;
 }
 
 .text-container-four {
-margin-top: 240px;    
+    margin-top: 400px;    
 }
 
 .text-on-top-three {
@@ -169,7 +174,7 @@ margin-top: 240px;
 }
 
 .text-container-six {
-    margin-top: 280px;
+    margin-top: 300px;
 }
 
 }
