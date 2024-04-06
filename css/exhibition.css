@@ -448,6 +448,7 @@ main {
 @media (min-width: 1350px) {
 
 main {
+    margin-top: 100px;
     margin-left: 280px;
 }
 
@@ -461,6 +462,10 @@ main {
 
 .cosmology {
     margin-left: -255px;
+}
+
+.open-science {
+    margin-left: 190px;
 }
 
 }
@@ -503,35 +508,85 @@ main {
     margin-top: 50px;
 }
 
+.button-contact {
+    font-size: 1rem;
+    padding: 10px 120px;
 }
 
-/*some design adjustments for size 1600 + needs to be done*/
+}
 
 @media (min-width: 1600px) {
 
 .human {
-    padding-top: 500px;
-    margin-left: -160px;
+    width: 800px;
+    padding-top: 1200px;
+    margin-left: -10px;
 }
 
-.text-on-top-one {
-    margin-top: -460px;
-    margin-left: -60px;
+.text-on-top-one  {
+    margin-top: -1150px;
+    margin-left: 400px;
+    padding: 40px;
 }
 
 .text-container-one {
+    margin-top: 680px;
     width: 500px;
-    margin-left: 350px;
-    margin-top: -500px;
 }
 
-.flex-container p {
-    width: 500px;
-    margin-left: -300px;
+.text-container-two h2 {
+    margin-left: -80px;
 }
 
-.skeleton {
-    padding-top: 35%;
-    margin-left: -160px;
+.text-container-two p {
+    margin-left: 480px;
 }
+
+.professor {
+    width: 800px;
+    padding-top: 1200px;
+    margin-left: -10px;
+}
+
+.text-on-top-two {
+    margin-top: -1050px;
+    margin-left: 220px;
+    padding: 40px;
+}
+
+.text-container-four {
+    width: 500px;
+    margin-top: 980px;
+    margin-bottom: 100px;
+}
+
+.museum-at-night {
+    width: 800px;
+    padding-top: 1200px;
+    margin-left: -10px;
+}
+
+.text-container-five {
+    width: 720px;
+    margin-left: -10px;
+    margin-bottom: 200px;
+}
+
+.text-container-five p {
+    width: 500px;
+    margin-left: 120px;
+}
+
+}
+
+@media (min-width: 1900px) {
+
+main {
+    margin-left: 450px;
+}
+
+.text-container-two p {
+    margin-left: 600px;
+}
+
 }

@@ -169,6 +169,15 @@ padding-top: 900px;
 
 }
 
+@media (min-width: 1500px) {
+
+.button-contact {
+    font-size: 1rem;
+    padding: 10px 120px;
+}
+
+}
+
 @media (min-width: 1600px) {
 
 .museum-building {
