@@ -150,3 +150,49 @@ p {
 }
 
 }
+
+@media (min-width: 1350px) {
+
+main {
+    margin-top: 120px;
+    margin-left: 200px;
+}
+    
+}
+
+@media (min-width: 1500px) {
+
+.section2 {
+    width: 500px;
+}
+
+.section3 {
+    width: 500px;
+}
+
+.section4 {
+    width: 500px;
+}
+
+.section5 {
+    width: 500px;
+}
+
+.section6 {
+    width: 500px;
+}
+
+.flex-container1 {
+    gap: 200px;
+}
+
+}
+
+@media (min-width: 1900px) {
+
+main {
+    margin-top: 120px;
+    margin-left: 280px;
+}
+    
+}
