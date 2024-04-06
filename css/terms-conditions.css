@@ -1,33 +1,31 @@
+main {
+    margin-top: 40px;
+    margin-left: 10px;
+    margin-bottom: 40px;
+    font-size: 0.7rem;
+}
+
 h2 {
     font-size: 0.7rem;
     font-weight: 200;
     font-style: oblique;
 }
 
-b {
-    margin-left: 10px;
-}
-
-p {
-    margin-top: 20px;
-    margin-left: 10px;
-    margin-bottom: 40px;
-    font-size: 0.7rem;
-}
-
 li {
-    font-size: 0.7rem;
     padding: 4px;
+    margin-bottom: 10px;
 }
 
-.section1 {
-    margin-left: 10px;
-    margin-bottom: 20px;
+.section2, b {
+    margin-top: 40px;
 }
 
-.section3 p {
-    margin-left: -12px;
-    margin-bottom: 0px;
+.section3, b {
+    margin-top: 40px;
+}
+
+.section4, b {
+    margin-top: 40px;
 }
 
 .section4 a:hover {
@@ -44,46 +42,112 @@ li {
 
 @media (min-width: 600px) {
 
+main {
+    margin-left: 40px;
+}
+
 .section2 {
-    width: 345px;
+    width: 350px;
 }
 
 .section3 {
-    width: 345px;
+    width: 350px;
 }
 
 .section4 {
-    width: 345px;
+    width: 350px;
 }
 
 }
 
 @media (min-width: 768px) {
     
+main {
+    margin-left: 20px;
+}
+    
+p {
+    margin-left: 20px;
+}
+    
+.section2 {
+    width: 320px;
+}
+
+.section3 {
+    width: 320px;
+}
+
 .section4 {
-    padding-right: 20px;
-    float: right;
-    margin-top: -1325px;
+    width: 320px;
 }
       
-/*text needs margin to the bottom*/
+.flex-container1 {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 80px;
+}
+
+.flex-container2 {
+    flex-direction: column;
+}
+
 }
 
 @media (min-width: 1000px) {
 
 .section2 {
-    width: 425px;
+    width: 420px;
+}
+    
+.section3 {
+    width: 420px;
+}
+    
+.section4 {
+    width: 420px;
+}
+
+.flex-container1 {
+    gap: 100px;
+}
+
+}
+
+@media (min-width: 1350px) {
+
+main {
+    margin-top: 120px;
+    margin-left: 200px;
+}
+
+}
+
+@media (min-width: 1500px) {
+
+.section2 {
+    width: 500px;
 }
         
 .section3 {
-    width: 425px;
+    width: 500px;
 }
         
 .section4 {
-    width: 425px;
-    padding-right: 20px;
-    float: right;
-    margin-top: -1310px;
+    width: 500px;
+}
+    
+.flex-container1 {
+    gap: 200px;
+}
+
+}
+
+@media (min-width: 1900px) {
+
+main {
+    margin-top: 120px;
+    margin-left: 280px;
 }
 
 }
