@@ -3,7 +3,7 @@ main {
 }
 
 .contact-image {
-    background-image: url("/images/museum-wall.png");
+    background-image: url("../images/museum-wall.png");
     background-size: cover;
     background-repeat: no-repeat;
     width: 50px;
