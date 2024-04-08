@@ -1,5 +1,5 @@
 .human {
-    background-image: url("/images/human.png");
+    background-image: url("../images/human.png");
     background-size: cover;
     background-repeat: no-repeat;
     padding-top: 400px;
