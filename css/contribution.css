@@ -1,5 +1,5 @@
 .museum-building {
-    background-image: url("/images/museum-buildingM.png");
+    background-image: url("../images/museum-buildingM.png");
     background-size: cover;
     background-repeat: no-repeat;
     padding-top: 400px;
@@ -30,7 +30,7 @@
 }
 
 .library {
-    background-image: url("/images/libraryS.png");
+    background-image: url("../images/libraryS.png");
     background-size: cover;
     background-repeat: no-repeat;
     padding-top: 200px;
@@ -96,7 +96,7 @@
 @media (min-width: 768px) {
 
 .museum-building {
-    background-image: url("/images/museum-building.png");
+    background-image: url("../images/museum-building.png");
 }
 
 .h1 {
