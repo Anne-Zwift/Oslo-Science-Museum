@@ -28,7 +28,7 @@ h2 {
 }
 
 .skeleton {
-    background-image: url("/images/skeleton.png");
+    background-image: url("../images/skeleton.png");
     background-repeat: no-repeat;
     padding-top: 200px;
 }
@@ -47,7 +47,7 @@ h2 {
 }
 
 .cosmology {
-    background-image: url("/images/cosmology.png");
+    background-image: url("../images/cosmology.png");
     background-size: cover;
     background-repeat: no-repeat;
     padding: 10%;
@@ -60,7 +60,7 @@ h2 {
 }
 
 .open-science {
-    background-image: url("/images/open-science.png");
+    background-image: url("../images/open-science.png");
     background-repeat: no-repeat;
     padding-top: 100px;
     margin-left: 77px;
@@ -68,7 +68,7 @@ h2 {
 }
 
 .professor {
-    background-image: url("/images/professor.png");
+    background-image: url("../images/professor.png");
     background-repeat: no-repeat;
     padding-top: 600px;
 }
@@ -91,7 +91,7 @@ h2 {
 }
 
 .museum-at-night {
-    background-image: url("/images/museum-at-night.png");
+    background-image: url("../images/museum-at-night.png");
     background-repeat: no-repeat;
     padding-top: 600px;
 }
@@ -111,7 +111,7 @@ h2 {
 }
 
 .teacher {
-    background-image: url("/images/teacher.png");
+    background-image: url("../images/teacher.png");
     background-size: cover;
     background-repeat: no-repeat;
     padding: 50%;
@@ -264,7 +264,7 @@ h2 {
 }
 
 .skeleton {
-    background-image: url("/images/skeletonM.png");
+    background-image: url("../images/skeletonM.png");
     padding-top: 500px;
     margin-left: 40px;
 }
