@@ -71,7 +71,7 @@
 @media (min-width: 600px) {
 
 .museum-building {
-padding-top: 900px;
+    padding-top: 900px;
 }
 
 .h1 {
@@ -107,8 +107,8 @@ padding-top: 900px;
 }
 
 .flex-container {
-   display: flex;
-   flex-wrap: wrap;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .text-container {

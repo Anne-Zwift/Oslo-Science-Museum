@@ -50,7 +50,8 @@ header {
 nav {
     display: none;
     position: absolute;
-    padding: 40px;
+    width: 320px;
+    padding: 20px;
     background-color: #fff;
     text-align: left;
 }
