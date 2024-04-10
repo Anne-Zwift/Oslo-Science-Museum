@@ -230,14 +230,15 @@ nav a {
 }
 
 /*tablet*/
-@media (min-width: 768px) {
+@media (min-width: 700px) {
 
 .logo-nav {
-    block-size: 9vh;
+    block-size: 70px;
     margin-left: 20px;
 }
-
+    
 nav {
+    width: 300px;
     display: block;
     float: right;
     position: static;
@@ -245,7 +246,7 @@ nav {
     padding: 0px;
     margin: 0px;
 }
-/*not sure witch size for the font yet, 0.9rem, it show different on different browsers*/
+
 nav a {
     display: inline-block;
     padding-left: 6px;
@@ -260,6 +261,15 @@ nav a {
 .menu {
     display: none;
 }
+
+.logo {
+    block-size: 70px;
+}
+
+}
+
+/*tablet*/
+@media (min-width: 768px) {
 
 /*footer starts here*/
 .footer {
