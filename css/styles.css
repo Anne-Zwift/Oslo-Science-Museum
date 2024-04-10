@@ -232,7 +232,7 @@ nav {
 /*not sure witch size for the font yet, it show different on different browsers*/
 nav a {
     display: inline-block;
-    font-size: 1.2rem;
+    font-size: 0.9rem;
     padding-left: 6px;
     padding-right: 6px;
     margin-top: 45px
