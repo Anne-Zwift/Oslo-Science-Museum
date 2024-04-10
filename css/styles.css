@@ -187,7 +187,7 @@ b:hover {
 @media (min-width: 425px) {
 
 .logo-nav {
-    block-size: 8vh;
+    block-size: 60px;
     margin-left: 20px;
 }
     
@@ -202,7 +202,7 @@ nav {
 
 /*footer*/
 .logo {
-    block-size: 8vh;
+    block-size: 60px;
     margin-top: 20px;
 }
 
@@ -211,20 +211,20 @@ nav {
 @media (min-width: 600px) {
 
 .logo-nav {
-    margin-left: 0px;
+    margin-left: 40px;
 }
 
 .menu {
-    margin-top: 65px;
-    margin-right: -60px;
+    margin-top: -40px;
+    margin-right: 40px;
 }
 
 nav {
-    padding-top: 20px;
-    padding-left: 110px;
-    padding-right: 105px;
-    padding-bottom: 20px;
-    margin-left: 0px;
+    width: 545px;
+}
+
+nav a {
+    padding-right: 20px;
 }
 
 }

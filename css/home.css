@@ -21,8 +21,6 @@ main {
     background-color: #1B5992;
     color: #fff;
     padding: 5px 10px;
-    margin-top: 10px;
-    margin-bottom: 20px;
 }
 
 .scientific img {
@@ -38,8 +36,6 @@ main {
     background-color: #1B5992;
     color: #fff;
     padding: 5px 10px;
-    margin-top: 10px;
-    margin-bottom: 20px;
 }
 
 @media (min-width: 375px) {
@@ -67,11 +63,32 @@ main {
 
 @media (min-width: 425px) {
 
+.text-container {
+    width: 350px;
+    margin-left: 30px;
+}
+
+.text-container2 {
+    width: 350px;
+    margin-left: 30px;
+}
+
 .img-container {
     gap: 0px;
 }
 
 .vr-glasses {
+    margin-left: 30px;
+}
+
+.text-color {
+    width: 350px;
+    margin-left: 30px;
+    margin-bottom: 40px;
+}
+
+.text-container3 {
+    width: 350px;
     margin-left: 30px;
 }
 
@@ -84,16 +101,25 @@ main {
 }
 
 h1 {
-    width: 450px;
     text-align: left;
-    margin-left: 20px;
+    margin-left: 60px;
 }
 
 .text-container {
-    width: 450px;
+    width: 400px;
     text-align: left;
-    margin-left: 20px;
+    margin-left: 60px;
     margin-bottom: 60px;
+}
+
+.button-events {
+    padding: 8px 60px;
+}
+
+.text-container2 {
+    width: 400px;
+    text-align: left;
+    margin-left: 60px;
 }
 
 .vr-glasses {
@@ -104,25 +130,23 @@ h1 {
     margin-right: 100px;
 }
 
-.text-container2 {
-    width: 450px;
-    text-align: left;
-    margin-left: 20px;
-}
-
 .text-color {
-    width: 450px;
+    width: 400px;
     text-align: left;
-    margin-left: 20px;
+    margin-left: 60px;
 }
 
 .scientific img {
-    width: 550px;
+    width: 500px;
+}
+
+.button-events2 {
+    padding: 8px 60px;
 }
 
 .text-container3 {
-    width: 450px;
-    margin-left: 65px;
+    width: 400px;
+    margin-left: 90px;
 }
 
 }
