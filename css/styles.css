@@ -57,10 +57,10 @@ header {
 }
 
 .logo-nav {
-    block-size: 6vh;
+    block-size: 40px;
     margin-top: 20px;
     margin-bottom: 20px;
-    margin-left: 0px;
+    margin-left: 20px;
 }
 
 nav {
@@ -102,8 +102,8 @@ nav a:hover {
 .menu {
     color: #000;
     float: right;
-    margin-top: -40px;
-    margin-right: 10px;
+    margin-top: -38px;
+    margin-right: 20px;
 }
 
 .button-events2 {
@@ -118,7 +118,7 @@ nav a:hover {
 }
 
 .logo {
-    block-size: 6vh;
+    block-size: 40px;
     margin-top: 20px;
 }
 
