@@ -179,13 +179,11 @@ h1 {
 }
 
 .text-container2 {
-    font-size: 0.7rem;
     width: 330px;
     margin-left: 400px;
 }
 
 .text-color {
-    font-size: 0.7rem;
     text-align: center;
     width: 330px;
     margin-top: 100px;
@@ -208,7 +206,6 @@ h1 {
     display: grid;
     grid-template-rows: repeat(1, 1fr);
     grid-template-columns: repeat(2, 1fr);
-    font-size: 0.7rem;
     text-align: left;
     width: 700px;
     gap: 60px;
@@ -450,7 +447,6 @@ h1 {
 }
 
 .text-container2 p {
-    font-size: 0.8rem;
     width: 550px;
 }
 
@@ -465,7 +461,6 @@ h1 {
 }
 
 .text-color {
-    font-size: 0.9rem;
     width: 500px;
     margin-left: 210px;
 }

@@ -6,29 +6,45 @@ html {
 
 /*font size is 1.2rem*/
 h1 {
-    font-family: "Inter", sans-serif;
+    font-family: 'Inter', sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
     color: #1B5992;
+
 }
 
 /*font size is 1rem*/
 h2 {
     font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
 }
 
 /*font size is 0.8rem*/
 h3 {
     font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
 }
 
 /*font size is 0.8rem*/
 body {
     font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
     color: #000;
 }
 
 /*font size is 0.5rem*/
 .caption {
     font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
     color: #6C6E70;
     margin-top: 20px;
     margin-bottom: 20px;
