@@ -280,7 +280,6 @@ nav a {
 }
 
 .logo {
-    block-size: 9vh;
     margin-left: 20px;
 }
 
@@ -334,7 +333,6 @@ nav {
 }
 
 .logo-nav {
-    block-size: 11vh;
     margin-left: 150px;
 }
 
@@ -347,8 +345,4 @@ nav {
     margin-right: 60px;
 }
     
-.logo-nav {
-    margin-left: 200px;
-}
-
 }
