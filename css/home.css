@@ -209,8 +209,8 @@ h1 {
 
 .img-container {
     grid-template-columns: repeat(2, 0.1fr);
-    margin-left: -80px;
-    margin-right: -20px;
+    margin-left: -60px;
+    margin-right: 0px;
     margin-top: -250px;
     gap: 20px;
 }

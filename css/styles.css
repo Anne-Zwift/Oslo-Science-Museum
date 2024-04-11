@@ -172,6 +172,10 @@ b:hover {
 
 @media (min-width: 375px) {
 
+.logo-nav {
+    block-size: 50px;
+}
+
 .hamburger-menu {
     margin-top: -10px;
     padding: 40px;
@@ -180,6 +184,10 @@ b:hover {
 .menu {
     margin-left: 230px; 
     margin-right: 40px;
+}
+
+.logo {
+    block-size: 50px;
 }
 
 }
