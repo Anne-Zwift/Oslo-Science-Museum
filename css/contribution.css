@@ -9,7 +9,6 @@
 .h1 {
     background-color: #EFC0C0;
     color: #001D56;
-    font-size: 1rem;
     text-align: center;
     border-radius: 10px;
     width: 160px;
@@ -75,7 +74,6 @@
 }
 
 .h1 {
-    font-size: 1.2rem;
     padding: 15px;
     width: 220px;
     margin-left: 440px;
@@ -172,7 +170,6 @@
 @media (min-width: 1500px) {
 
 .button-contact {
-    font-size: 1rem;
     padding: 10px 120px;
 }
 
