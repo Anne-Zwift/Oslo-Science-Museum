@@ -66,8 +66,8 @@ header {
 nav {
     display: none;
     position: absolute;
-    width: 320px;
-    padding: 20px;
+    width: 248px;
+    padding: 10px;
     background-color: #fff;
     text-align: left;
 }

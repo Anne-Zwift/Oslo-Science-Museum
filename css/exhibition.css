@@ -36,7 +36,6 @@ h2 {
 .text-container-two {
     background-color: #000;
     color: #fff;
-    font-size: 0.7rem;
     text-align: center;
     padding: 20px;
     margin-top: 40px;
@@ -84,7 +83,6 @@ h2 {
 }
 
 .text-container-four {
-    font-size: 0.7rem;
     text-align: center;
     margin-top: 410px;
     margin-bottom: 40px;
@@ -99,7 +97,6 @@ h2 {
 .text-container-five {
     background-color: #000;
     color: #fff;
-    font-size: 0.7rem;
     text-align: center;
     padding: 40px;
     margin-top: -20px;
@@ -341,7 +338,6 @@ h2 {
 }
 
 .flex-container p{
-    font-size: 0.7rem;
     width: 300px;
     margin-top: 20px;
     margin-left: 80px;
@@ -509,7 +505,6 @@ main {
 }
 
 .button-contact {
-    font-size: 1rem;
     padding: 10px 120px;
 }
 
