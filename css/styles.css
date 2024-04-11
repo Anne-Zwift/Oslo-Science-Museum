@@ -5,7 +5,7 @@ html {
 }
 
 h1 {
-    font-family: 'Inter', sans-serif;
+    font-family: "Roboto", Verdana, Geneva, Tahoma, sans-serif;
     font-optical-sizing: auto;
     font-weight: 600;
     font-style: bolder;
@@ -14,21 +14,21 @@ h1 {
 }
 
 h2 {
-    font-family: "Inter", sans-serif;
+    font-family: "Roboto", Verdana, Geneva, Tahoma, sans-serif;
     font-optical-sizing: auto;
     font-weight: 500;
     font-style: normal;
 }
 
 h3 {
-    font-family: "Inter", sans-serif;
+    font-family: "Roboto", Verdana, Geneva, Tahoma, sans-serif;
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
 }
 
 body {
-    font-family: "Inter", sans-serif;
+    font-family: "Roboto", Verdana, Geneva, Tahoma, sans-serif;
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
@@ -36,7 +36,7 @@ body {
 }
 
 .caption {
-    font-family: "Inter", sans-serif;
+    font-family: "Roboto", Verdana, Geneva, Tahoma, sans-serif;
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
