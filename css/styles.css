@@ -5,34 +5,35 @@ html {
 }
 
 h1 {
-    font-family: "Roboto", Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Inter', Roboto, Verdana, Geneva, Tahoma, sans-serif;
     font-weight: 600;
     font-style: bolder;
+    font-variation-settings: 'slant' 0;
     color: #1B5992;
 
 }
 
 h2 {
-    font-family: "Roboto", Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Inter', Roboto, Verdana, Geneva, Tahoma, sans-serif;
     font-weight: 500;
     font-style: normal;
 }
 
 h3 {
-    font-family: "Roboto", Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Inter', Roboto, Verdana, Geneva, Tahoma, sans-serif;
     font-weight: 400;
     font-style: normal;
 }
 
 body {
-    font-family: "Roboto", Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Inter', Roboto, Verdana, Geneva, Tahoma, sans-serif;
     font-weight: 400;
     font-style: normal;
     color: #000;
 }
 
 .caption {
-    font-family: "Roboto", Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Inter', Roboto, Verdana, Geneva, Tahoma, sans-serif;
     font-weight: 400;
     font-style: normal;
     color: #6C6E70;
