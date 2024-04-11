@@ -2,12 +2,11 @@ main {
     margin-top: 40px;
     margin-left: 10px;
     margin-bottom: 40px;
-    font-size: 0.7rem;
 }
 
 h2 {
-    font-size: 0.7rem;
-    font-weight: 200;
+    font-size: 1rem;
+    font-weight: 300;
     font-style: oblique;
 }
 
@@ -66,7 +65,7 @@ main {
     margin-left: 20px;
 }
     
-p {
+main p {
     margin-left: 20px;
 }
     
