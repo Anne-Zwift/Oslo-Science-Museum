@@ -31,6 +31,7 @@ h2 {
     background-image: url("../images/skeleton.png");
     background-repeat: no-repeat;
     padding-top: 200px;
+    margin-left: 10px;
 }
 
 .text-container-two {
@@ -76,8 +77,9 @@ h2 {
     background-color: #1b5992;
     color: #fff;
     text-align: center;
-    width: 250px;
+    width: 230px;
     border-radius: 10px;
+    padding: 8px;
     margin-top: -510px;
     margin-left: 10px;
 }
@@ -141,7 +143,7 @@ h2 {
     background-color: #1b5992;
     color: #fff;
     padding: 5px 60px;
-    margin-left: 10px;
+    margin-left: 0px;
 }
 
 @media (min-width: 375px) {
@@ -308,7 +310,24 @@ h2 {
 }
 
 .button-contact {
-    margin-left: 40px;
+    padding: 8px 80px;
+}
+
+}
+
+/*larger sizes*/
+@media (min-width: 700px) {
+
+.open-science {
+    margin-left: 250px;
+}
+
+.text-on-top-two {
+    margin-left: 200px;
+}
+
+.text-container-four {
+margin-left: 100px;
 }
 
 }
@@ -358,17 +377,22 @@ h2 {
     margin-left: 152px;
 }
 
+.open-science {
+    margin-left: 200px;
+}
+
 .professor {
     width: 460px;
     margin-left: 152px;
 }
 
 .text-on-top-two{
-    margin-left: 240px;
+    margin-left: 250px;
     padding: 20px;
 }
 
 .text-container-four {
+    margin-top: 750px;
     margin-left: 152px;
 }
 
@@ -416,6 +440,21 @@ h2 {
 
 .button-contact {
     margin-left: 0px;
+}
+
+}
+
+@media (min-width: 900px) {
+
+main {
+    margin-left: 80px;
+}
+
+.text-container-two {
+    margin-left: -80px;
+}
+.cosmology {
+    margin-left: -80px;
 }
 
 }
@@ -582,6 +621,14 @@ main {
 
 .text-container-two p {
     margin-left: 600px;
+}
+
+.text-container-four {
+    margin-left: 130px;
+}
+
+.text-container-four b {
+    margin-left: 0px;
 }
 
 }

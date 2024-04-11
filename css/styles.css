@@ -172,6 +172,10 @@ b:hover {
 
 @media (min-width: 375px) {
 
+nav {
+    padding: 10px 58px;
+}
+
 .logo-nav {
     block-size: 50px;
 }
@@ -204,8 +208,7 @@ b:hover {
 }
 
 nav {
-    padding: 20px;
-    width: 369px;
+    width: 300px;
 }
 
 /*footer*/
@@ -228,7 +231,7 @@ nav {
 }
 
 nav {
-    width: 545px;
+    width: 470px;
 }
 
 nav a {
