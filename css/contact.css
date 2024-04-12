@@ -2,6 +2,13 @@ main {
     margin-bottom: 20px;
 }
 
+@supports (display: block) {
+
+.form-input {
+    font-size: 12px;
+}    
+
+}
 .contact-image {
     background-image: url("../images/museum-wall.png");
     background-size: cover;
