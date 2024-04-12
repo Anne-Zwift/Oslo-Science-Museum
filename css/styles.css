@@ -36,12 +36,10 @@ body {
     
 .caption {
     font-family: 'Inter', Roboto, Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 12px;
+    font-size: 16px;
     font-weight: 400;
     font-style: normal;
     color: #6C6E70;
-    margin-top: 20px;
-    margin-bottom: 20px;
 }
 
 .copyright {
