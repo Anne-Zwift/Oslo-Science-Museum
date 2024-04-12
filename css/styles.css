@@ -298,6 +298,21 @@ nav a {
 /*tablet*/
 @media (min-width: 768px) {
 
+@supports (display: inline-flex) {
+    
+nav a {
+   font-size: 18px;
+}
+
+nav {
+    display: inline-flex;
+    width: 300px;
+    margin-right: 20px;
+    gap: 10px;
+}
+
+}
+
 /*footer starts here*/
 .footer {
     text-align: left;
