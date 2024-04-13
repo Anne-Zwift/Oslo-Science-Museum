@@ -161,6 +161,7 @@ label {
 }
 
 .text-color {
+    font-size: 18px;
     margin-top: 160px;
     margin-left: 60px;
     width: 300px;
@@ -169,6 +170,14 @@ label {
 .opening-hours2 {
     padding-top: 100px;
     padding-bottom: 0px;
+}
+
+.opening-hours2, p {
+    font-size: 18px;
+}
+
+.opening-hours2 {
+    font-size: 20px;
 }
 
 .background-color {

@@ -500,11 +500,20 @@ main {
     margin-left: 280px;
 }
 
+.text-container-one p {
+    font-size: 18px;
+}
+
+h2 {
+    font-weight: 600;
+}
+
 .text-container-two {
     margin-left: -255px;
 }
 
 .text-container-two p {
+    font-size: 18px;
     margin-left: 380px;
 }
 
@@ -512,12 +521,28 @@ main {
     margin-left: -255px;
 }
 
+.text-container-three p {
+    font-size: 18px;
+}
+
 .open-science {
     margin-left: 190px;
 }
 
+.text-container-four p {
+    font-size: 18px;
+}
+
+.text-container-five p {
+    font-size: 18px;
+}
+
 .teacher {
     background-size: 30%;
+}
+
+.text-container-six p {
+    font-size: 18px;
 }
 
 }
