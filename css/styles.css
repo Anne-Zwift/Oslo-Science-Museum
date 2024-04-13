@@ -4,12 +4,13 @@ html {
     background-color: #fff;
 }
 
-@supports (display: block) {
-
 h1 {
     font-family: 'Inter', Roboto, Verdana, Geneva, Tahoma, sans-serif;
     font-size: 33px;
     font-weight: 600;
+    font-variation-settings: 'slant' 0;
+    color: #1B5992;
+
 }
 
 h2 {
@@ -18,14 +19,14 @@ h2 {
     font-weight: 500;
     font-style: normal;
 }
-    
+
 h3 {
     font-family: 'Inter', Roboto, Verdana, Geneva, Tahoma, sans-serif;
     font-size: 20px;
     font-weight: 400;
     font-style: normal;
 }
-    
+
 body {
     font-family: 'Inter', Roboto, Verdana, Geneva, Tahoma, sans-serif;
     font-size: 16px;
@@ -33,13 +34,15 @@ body {
     font-style: normal;
     color: #000;
 }
-    
+
 .caption {
     font-family: 'Inter', Roboto, Verdana, Geneva, Tahoma, sans-serif;
     font-size: 16px;
     font-weight: 400;
     font-style: normal;
     color: #6C6E70;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .copyright {
@@ -47,45 +50,6 @@ body {
     font-size: 12px;
     font-weight: 400;
     font-style: normal;
-}
-
-}
-
-h1 {
-    font-family: 'Inter', Roboto, Verdana, Geneva, Tahoma, sans-serif;
-    font-weight: 600;
-    font-style: bolder;
-    font-variation-settings: 'slant' 0;
-    color: #1B5992;
-
-}
-
-h2 {
-    font-family: 'Inter', Roboto, Verdana, Geneva, Tahoma, sans-serif;
-    font-weight: 500;
-    font-style: normal;
-}
-
-h3 {
-    font-family: 'Inter', Roboto, Verdana, Geneva, Tahoma, sans-serif;
-    font-weight: 400;
-    font-style: normal;
-}
-
-body {
-    font-family: 'Inter', Roboto, Verdana, Geneva, Tahoma, sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    color: #000;
-}
-
-.caption {
-    font-family: 'Inter', Roboto, Verdana, Geneva, Tahoma, sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    color: #6C6E70;
-    margin-top: 20px;
-    margin-bottom: 20px;
 }
 
 /*nav starts here*/
@@ -275,9 +239,8 @@ nav {
 }
 
 nav a {
-    font-size: 16px;
-    font-weight: 500;
     display: inline-block;
+    font-weight: 500;
     padding-left: 20px;
     padding-right: 0px;
     margin-left: -20px;
@@ -296,9 +259,7 @@ nav a {
 
 /*tablet*/
 @media (min-width: 768px) {
-
-@supports (display: inline-flex) {
-    
+  
 nav a {
    font-size: 18px;
 }
@@ -307,8 +268,6 @@ nav {
     display: inline-flex;
     width: 300px;
     margin-right: 40px;
-}
-
 }
 
 /*footer starts here*/
