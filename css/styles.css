@@ -308,10 +308,6 @@ b {
 
 @media (min-width: 1000px) {
 
-body {
-    font-size: 18px;
-}
-
 .logo-nav {
     margin-left: 100px;
 }
@@ -336,10 +332,6 @@ body b {
     font-size: 20px;
 }
         
-body {
-    font-size: 18px;
-}
-
 nav {
     width: 450px;
     margin-top: 8px;
