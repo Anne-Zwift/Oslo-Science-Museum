@@ -308,6 +308,10 @@ b {
 
 @media (min-width: 1000px) {
 
+body {
+    font-size: 18px;
+}
+
 .logo-nav {
     margin-left: 100px;
 }
@@ -316,9 +320,25 @@ nav {
     margin-right: 60px;
 }
 
+.caption a {
+    font-size: 18px;
+}
+
+.copyright {
+    font-size: 16px;
+}
+
 }
 
 @media (min-width: 1350px) {
+
+body b {
+    font-size: 20px;
+}
+        
+body {
+    font-size: 18px;
+}
 
 nav {
     width: 450px;
