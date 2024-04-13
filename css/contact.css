@@ -2,13 +2,6 @@ main {
     margin-bottom: 20px;
 }
 
-@supports (display: block) {
-
-.form-input {
-    font-size: 12px;
-}    
-
-}
 .contact-image {
     background-image: url("../images/museum-wall.png");
     background-size: cover;
@@ -16,7 +9,7 @@ main {
     width: 50px;
     border-radius: 60px;
     padding: 25%;
-    margin-top: 20px;
+    margin-top: 40px;
     margin-left: 40px;
 }
 
@@ -25,7 +18,7 @@ main {
     width: 220px;
     text-align: center;
     color: #1B5992;
-    margin-left: 20px;
+    margin-left: 30px;
 }
 
 /*font-size for the address 0.7rem*/
@@ -51,6 +44,7 @@ main {
 
 .form-input {
     display: block;
+    font-size: 16px;
     width: 200px;
     padding: 5px;
     margin-top: 8px;
