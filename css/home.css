@@ -23,24 +23,6 @@ main {
     padding: 5px 10px;
 }
 
-.carousel {
-    display: flex;
-    overflow: hidden;
-    margin-top: 100px;
-    margin-bottom: 100px;
-}
-
-.carousel img {
-    max-width: 100%;
-    height: auto;
-    margin: 10px;
-    transition: opacity 0.5s ease-in;
-}
-
-.carousel img:not(:first-child) {
-    opacity: 0;
-}
-
 .scientific img {
     width: 250px;
     margin-bottom: 10px;
