@@ -166,6 +166,12 @@ h1 {
     padding: 8px 60px;
 }
 
+#slider {
+    margin-top: -60px;
+    margin-left: 50px;
+    max-width: 300px;
+}
+
 .text-container2 {
     width: 400px;
     text-align: left;
@@ -204,13 +210,9 @@ h1 {
 @media (min-width: 700px) {
 
 #slider {
-    margin-top: -100px;
+    margin-top: -80px;
     margin-left: 20px;
     max-width: 500px;
-}
-    
-#slider img {
-    max-height: 600px;
 }
     
 .slider-logo {
@@ -470,6 +472,10 @@ h1 {
     width: 1225px;
 }
 
+#slider {
+    margin-left: 350px;
+}
+
 .exhibition img {
     block-size: 20vh;
 }
@@ -596,6 +602,10 @@ h1 {
 
 .museum img {
     width: 1800px;
+}
+
+#slider {
+    margin-left: 580px;
 }
 
 .vr-glasses {
