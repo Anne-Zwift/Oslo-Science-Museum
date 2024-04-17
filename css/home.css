@@ -13,6 +13,7 @@ main {
     padding: 5px 10px;
 }
 
+/*the slider starts here*/
 #slider {
     overflow: hidden;
 }
@@ -71,6 +72,7 @@ main {
         left: -400%;
     }
 }
+/*the slider stops here*/
 
 .scientific img {
     width: 250px;
@@ -355,7 +357,7 @@ h1 {
 }
 
 .img-container {
-    margin-left: -40px;
+    margin-left: -10px;
     margin-right: 0px;
     margin-top: -250px;
 }
@@ -391,6 +393,10 @@ h1 {
 
 .museum img {
     width: 950px;
+}
+
+.img-container {
+    margin-left: 10px;
 }
 
 .scientific img {
@@ -455,6 +461,10 @@ h1 {
     width: 1100px;
 }
 
+.img-container {
+    margin-left: 90px;
+}
+
 .scientific img {
     width: 450px;
     margin-right: 100px;
@@ -474,18 +484,6 @@ h1 {
 
 #slider {
     margin-left: 350px;
-}
-
-.exhibition img {
-    block-size: 20vh;
-}
-
-.vr-glasses {
-    block-size: 40vh;
-}
-
-.img-small {
-    block-size: 18.5vh;
 }
 
 .text-container2 {
