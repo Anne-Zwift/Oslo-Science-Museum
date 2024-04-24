@@ -72,6 +72,12 @@ main {
         left: -400%;
     }
 }
+
+.slider-bg {
+    background-color: #5795CE;
+    margin-top: 40px;
+}
+
 /*the slider stops here*/
 
 .scientific img {
@@ -169,9 +175,9 @@ h1 {
 }
 
 #slider {
-    margin-top: -60px;
+    margin-top: -20px;
     margin-left: 50px;
-    max-width: 300px;
+    max-width: 500px;
 }
 
 .text-container2 {
@@ -210,15 +216,9 @@ h1 {
 }
 
 @media (min-width: 700px) {
-
-#slider {
-    margin-top: -80px;
-    margin-left: 20px;
-    max-width: 500px;
-}
-    
+  
 .slider-logo {
-    padding-top: 5%; 
+    padding-top: 100px; 
 }
         
 .slider-img {
@@ -247,6 +247,19 @@ h1 {
     width: 752px;
 }
 
+#slider {
+    margin-top: -100px;
+    margin-left: 20px;
+    max-width: 700px;
+}
+
+.color {
+    background-color: #5795CE;
+    padding-left: 150px;
+    padding-right: 150px;
+    max-width: none;
+}
+
 .section-container {
     background-color: #dbacacb9;
     width: 300px;
@@ -272,11 +285,6 @@ h1 {
     display: block;
     width: 180px;
     padding: 8px 40px;
-}
-
-#slider {
-    margin-top: -180px;
-    margin-bottom: -120px;
 }
 
 .img-container {
@@ -348,8 +356,24 @@ h1 {
 }
 
 #slider {
-    margin-left: 180px;
+    margin-top: -80px;
+    margin-left: 40px;
     max-width: 600px;
+}
+
+.color {
+    margin-top: -50px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.slider-bg {
+    max-width: 1000px;
+    padding-left: 200px;
+}
+
+.slider-logo {
+    padding-top: 100px;
 }
 
 .section-container {
@@ -395,6 +419,10 @@ h1 {
     width: 950px;
 }
 
+#slider {
+    margin-left: 80px;
+}
+
 .img-container {
     margin-left: 10px;
 }
@@ -417,6 +445,10 @@ h1 {
 
 .museum img {
     width: 1040px;
+}
+
+#slider {
+    margin-left: 140px;
 }
 
 .img-container {
@@ -461,6 +493,15 @@ h1 {
     width: 1100px;
 }
 
+#slider {
+    margin-left: 100px;
+}
+
+.slider-bg {
+    max-width: 1100px;
+    padding-left: 400px;
+}
+
 .img-container {
     margin-left: 90px;
 }
@@ -483,7 +524,7 @@ h1 {
 }
 
 #slider {
-    margin-left: 350px;
+    margin-left: 150px;
 }
 
 .text-container2 {
@@ -519,8 +560,8 @@ h1 {
 }
 
 #slider {
-    margin-top: -100px;
-    margin-left: 380px;
+    margin-top: 0px;
+    margin-left: 180px;
 }
 
 .section-container {
@@ -585,11 +626,25 @@ h1 {
 
 @media (min-width: 1600px) {
 
-
 .museum img {
     width: 1500px;
 }
       
+#slider {
+    margin-left: 200px;
+}
+
+.color {
+    padding-left: -100px;
+    padding-right: -100px;
+}
+
+.slider-bg {
+    padding-left: 300px;
+    padding-right: 300px;
+    padding-top: 0px;
+}
+
 .button-events2 {
     margin-left: 20px;
 }
@@ -603,7 +658,16 @@ h1 {
 }
 
 #slider {
-    margin-left: 580px;
+    margin-left: 360px;
+}
+
+.color {
+    max-width: 1200px;
+    padding-left: 100px;
+}
+
+.slider-logo {
+    padding-top: 110px;
 }
 
 .vr-glasses {
