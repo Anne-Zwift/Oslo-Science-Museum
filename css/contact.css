@@ -18,7 +18,7 @@ main {
     width: 220px;
     text-align: center;
     color: #1B5992;
-    margin-left: 40px;
+    margin-left: 45px;
 }
 
 .background-color{
@@ -191,7 +191,7 @@ label {
 .form-container2 {
     float: right;
     width: 500px;
-    margin-top: -275px;
+    margin-top: -285px;
 }
 
 .button-submit {
