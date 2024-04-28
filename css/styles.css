@@ -27,6 +27,8 @@ h3 {
 }
 
 body {
+    margin: 0;
+    padding: 0;
     font-family: 'Inter', Roboto, Verdana, Geneva, Tahoma, sans-serif;
     font-size: 16px;
     font-weight: 400;
@@ -100,6 +102,34 @@ nav a:hover {
 .button-events2 {
     background-color: #1B5992;
     color: #fff;
+}
+
+/*arrow to top starts here*/
+.up {
+    width: 100%;
+    background: #fff no-repeat;
+    background-size: cover;
+}
+
+.fa-arrow-up {
+    position: fixed;
+    align-content: center;
+    text-align: center;
+    color: #fff;
+    width: 40px;
+    height: 40px;
+    background: #1B5992;
+    border-radius: 100%;
+    bottom: 20px;
+    right: 10px;
+    line-height: 10px;
+    text-decoration: none;
+}
+
+.fa-arrow-up:hover {
+    background: #EFC0C0;
+    line-height: 40px;
+    transition-duration: 2ms;
 }
 
 /*footer starts here*/
