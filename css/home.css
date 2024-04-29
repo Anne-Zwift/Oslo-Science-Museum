@@ -3,7 +3,7 @@ main {
 }
 
 .museum img {
-    margin-top: 40px;
+    margin-top: 140px;
     width: 250px;
 }
 
@@ -152,10 +152,9 @@ main {
 }
 
 @media (min-width: 600px) {
-     
+
 .museum img {
     width: 550px;
-    margin-top: 40px;
 }
 
 h1 {
@@ -555,7 +554,6 @@ h1 {
 
 .museum img {
     width: 1400px;
-    margin-top: 40px;
     margin-bottom: 40px;
 }
 

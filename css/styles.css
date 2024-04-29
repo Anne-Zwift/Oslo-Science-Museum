@@ -55,8 +55,10 @@ body {
 
 /*nav starts here*/
 header {
-    background-color: #dbacac50;
-    position: relative;
+    background-color: #EFC0C0;
+    position: fixed;
+    width: 100%;
+    z-index: 9999;
 }
 
 .logo-nav {
@@ -69,8 +71,11 @@ header {
 nav {
     display: none;
     position: absolute;
-    padding: 10px;
+    margin-top: -15px;
+    padding-left: 15px;
     text-align: left;
+    background-color: #dbacacd5;
+    width: 100%;
 }
 
 nav a {
@@ -238,9 +243,9 @@ nav a {
 .hamburger-menu {
     margin-left: 100px;
 }
-
+ 
 nav {
-    width: 455px;
+    width: 100%;
 }
 
 nav a {
@@ -273,7 +278,7 @@ nav a {
     padding-left: 20px;
     padding-right: 0px;
     margin-left: -20px;
-    margin-top: 40px
+    margin-top: 55px
 }
 
 .hamburger-menu {
@@ -364,7 +369,6 @@ body b {
         
 nav {
     width: 450px;
-    margin-top: 8px;
     margin-right: 20px;
     margin-left: 20px;
 }
@@ -373,13 +377,4 @@ nav {
     margin-left: 150px;
 }
 
-}
-
-@media (min-width: 1500px) {
-
-nav {
-    margin-top: 4px;
-    margin-right: 60px;
-}
-    
 }
