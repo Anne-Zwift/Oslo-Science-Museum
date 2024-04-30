@@ -9,8 +9,11 @@ main {
     width: 50px;
     border-radius: 60px;
     padding: 25%;
-    margin-top: 40px;
     margin-left: 55px;
+}
+
+.container {
+    padding-top: 120px;
 }
 
 /*text-color for "contact us"*/
@@ -125,6 +128,10 @@ label {
 }
 
 @media (min-width: 600px) {
+
+.container {
+    padding-top: 160px;
+}
 
 .form-input {
     width: 500px;
