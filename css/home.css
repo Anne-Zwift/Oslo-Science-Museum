@@ -226,7 +226,11 @@ h1 {
 }
 
 @media (min-width: 700px) {
-  
+
+.museum img {
+    width: 650px;
+}
+
 #slider {
     max-width: 600px;
 }
@@ -411,6 +415,10 @@ h1 {
     width: 950px;
 }
 
+#slider {
+    padding-left: 310px;
+}
+
 .img-container {
     margin-left: 10px;
 }
@@ -485,6 +493,7 @@ h1 {
 #slider {
     max-width: 1100px;
     padding-left: 430px;
+    margin-left: 50px;
 }
 
 .img-container {
