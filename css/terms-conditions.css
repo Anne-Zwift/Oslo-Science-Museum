@@ -1,17 +1,21 @@
+body b {
+    font-size: 18px;
+}
+
 main {
-    margin-top: 40px;
+    margin-top: 0;
     margin-left: 10px;
     margin-bottom: 40px;
+}
+
+.section1 {
+    padding-top: 120px;
 }
 
 h2 {
     font-size: 16px;
     font-weight: 300;
     font-style: oblique;
-}
-
-body b {
-    font-size: 18px;
 }
 
 li {
@@ -62,7 +66,7 @@ main {
 }
 
 }
-/*footer b needs to be adjusted, fix b in text instead*/
+
 @media (min-width: 768px) {
     
 main {
@@ -119,8 +123,15 @@ main p {
 
 @media (min-width: 1350px) {
 
+body b {
+    font-size: 20px;
+}
+    
+body {
+        font-size: 18px;
+}
+
 main {
-    margin-top: 120px;
     margin-left: 200px;
 }
 
@@ -128,14 +139,6 @@ h2 {
     font-size: 18px;
     font-weight: 300;
     font-style: oblique;
-}
-
-body b {
-    font-size: 20px;
-}
-
-body {
-    font-size: 18px;
 }
 
 }
@@ -163,7 +166,6 @@ body {
 @media (min-width: 1900px) {
 
 main {
-    margin-top: 120px;
     margin-left: 280px;
 }
 

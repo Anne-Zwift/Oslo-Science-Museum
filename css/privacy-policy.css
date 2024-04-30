@@ -159,6 +159,14 @@ main p {
 
 @media (min-width: 1350px) {
 
+body b {
+        font-size: 20px;
+}
+    
+body {
+        font-size: 18px;
+}
+
 main {
     margin-left: 200px;
 }
@@ -167,14 +175,6 @@ h2 {
     font-size: 18px;
     font-weight: 300;
     font-style: oblique;
-}
-
-body b {
-    font-size: 20px;
-}
-
-body {
-    font-size: 18px;
 }
 
 }
