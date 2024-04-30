@@ -29,8 +29,8 @@ main {
 #slider figure img {
     float: left;
     width: 20%;
-    margin-top: 40px;
-    margin-bottom: 40px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 .slider-logo {
@@ -179,6 +179,17 @@ h1 {
     max-width: 500px;
 }
 
+#slider figure img {
+    width: 15%;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.slider-bg {
+    width: 600px;
+    padding-right: 10px;
+}
+
 .text-container2 {
     width: 400px;
     text-align: left;
@@ -216,12 +227,8 @@ h1 {
 
 @media (min-width: 700px) {
   
-.slider-logo {
-    padding-top: 100px; 
-}
-        
-.slider-img {
-    padding: 2%; 
+#slider {
+    max-width: 600px;
 }
 
 .text-container3 {
@@ -244,19 +251,6 @@ h1 {
 
 .museum img {
     width: 752px;
-}
-
-#slider {
-    margin-top: -100px;
-    margin-left: 20px;
-    max-width: 700px;
-}
-
-.color {
-    background-color: #5795CE;
-    padding-left: 150px;
-    padding-right: 150px;
-    max-width: none;
 }
 
 .section-container {
@@ -284,6 +278,15 @@ h1 {
     display: block;
     width: 180px;
     padding: 8px 40px;
+}
+
+#slider {
+    max-width: 760px;
+    padding-left: 40px;
+}
+
+.slider-bg {
+    width: 650px;
 }
 
 .img-container {
@@ -354,29 +357,18 @@ h1 {
     width: 850px;
 }
 
+.section-container {
+    margin-left: 240px;
+}
+
 #slider {
     margin-top: -80px;
-    margin-left: 40px;
-    max-width: 600px;
-}
-
-.color {
-    margin-top: -50px;
-    padding-left: 50px;
-    padding-right: 50px;
-}
-
-.slider-bg {
-    max-width: 1000px;
+    max-width: 850px;
     padding-left: 200px;
 }
 
 .slider-logo {
     padding-top: 100px;
-}
-
-.section-container {
-    margin-left: 240px;
 }
 
 .img-container {
@@ -418,10 +410,6 @@ h1 {
     width: 950px;
 }
 
-#slider {
-    margin-left: 80px;
-}
-
 .img-container {
     margin-left: 10px;
 }
@@ -447,7 +435,8 @@ h1 {
 }
 
 #slider {
-    margin-left: 140px;
+    max-width: 1000px;
+    padding-left: 350px;
 }
 
 .img-container {
@@ -493,12 +482,8 @@ h1 {
 }
 
 #slider {
-    margin-left: 100px;
-}
-
-.slider-bg {
     max-width: 1100px;
-    padding-left: 400px;
+    padding-left: 430px;
 }
 
 .img-container {
@@ -523,7 +508,9 @@ h1 {
 }
 
 #slider {
-    margin-left: 150px;
+    max-width: 1200px;
+    padding-left: 550px;
+    margin-left: 65px;
 }
 
 .text-container2 {
@@ -559,7 +546,7 @@ h1 {
 
 #slider {
     margin-top: 0px;
-    margin-left: 180px;
+    padding-left: 650px;
 }
 
 .section-container {
@@ -627,20 +614,9 @@ h1 {
 .museum img {
     width: 1500px;
 }
-      
+
 #slider {
-    margin-left: 200px;
-}
-
-.color {
-    padding-left: -100px;
-    padding-right: -100px;
-}
-
-.slider-bg {
-    padding-left: 300px;
-    padding-right: 300px;
-    padding-top: 0px;
+    padding-left: 810px;
 }
 
 .button-events2 {
@@ -656,16 +632,7 @@ h1 {
 }
 
 #slider {
-    margin-left: 360px;
-}
-
-.color {
-    max-width: 1200px;
-    padding-left: 100px;
-}
-
-.slider-logo {
-    padding-top: 110px;
+    padding-left: 1120px;
 }
 
 .vr-glasses {
