@@ -4,7 +4,7 @@ main {
 
 .museum img {
     margin-top: 140px;
-    width: 250px;
+    width: 270px;
 }
 
 .button-events {
@@ -95,6 +95,26 @@ main {
     padding: 5px 10px;
 }
 
+@media (min-width: 350px) {
+
+.museum img {
+    width: 330px;
+}    
+
+.img-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding-bottom: 10px;
+    margin-left: 5px;
+}
+
+.img-small {
+    margin-right: 0px;
+    margin-bottom: 18px;
+}
+
+}
+
 @media (min-width: 375px) {
 
 .museum img {
@@ -102,14 +122,11 @@ main {
 }
 
 .img-container {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 20px;
-    padding-bottom: 10px;
+    margin-left: 10px;
 }
 
 .img-small {
-    margin-bottom: 18px;
+    margin-right: 20px;
 }
 
 .scientific img {
@@ -119,6 +136,14 @@ main {
 }
 
 @media (min-width: 425px) {
+
+.museum img {
+    width: 400px;
+}
+
+.img-container {
+    margin-left: 0px;
+}
 
 .text-container {
     width: 350px;
@@ -197,11 +222,11 @@ h1 {
 }
 
 .vr-glasses {
-    margin-left: 100px;
+    margin-left: 60px;
 }
 
 .img-small {
-    margin-right: 100px;
+    margin-right: 200px;
 }
 
 .text-color {
@@ -241,11 +266,11 @@ h1 {
 }
 
 .vr-glasses {
-    margin-left: 150px;
+    margin-left: 130px;
 }
 
 .img-small {
-    margin-left: -80px;
+    margin-left: 40px;
 }
 
 }
@@ -423,12 +448,17 @@ h1 {
     margin-left: 10px;
 }
 
+.text-container2 {
+padding-left: 60px;
+}
+
 .scientific img {
-    margin-right: 165px;
+    width: 400px;
+    margin-right: 80px;
 }
 
 .button-events2 {
-    margin-left: -500px;
+    margin-left: -20px;
 }
 
 .text-container3 {
@@ -455,6 +485,7 @@ h1 {
 
 .text-container2 {
     width: 400px;
+    padding-left: 20px;
     margin-left: 600px;
 }
 
@@ -554,11 +585,6 @@ h1 {
     margin-bottom: 40px;
 }
 
-#slider {
-    margin-top: 0px;
-    padding-left: 650px;
-}
-
 .section-container {
     width: 500px;
     margin-top: -220px;
@@ -571,6 +597,11 @@ h1 {
 
 .button-events {
     padding: 10px 80px;
+}
+
+#slider {
+    margin-top: 0px;
+    padding-left: 650px;
 }
 
 .flex-container {
@@ -589,10 +620,18 @@ h1 {
     margin-left: 140px;
 }
 
+.vr-glasses {
+    width: 230px;
+}
+
+.img-small {
+    width: 235px;
+}
+
 .scientific img {
     width: 500px;
     margin-top: -200px;
-    margin-right: 180px;
+    margin-right: 120px;
 }
 
 .text-color {
@@ -629,6 +668,10 @@ h1 {
     padding-left: 810px;
 }
 
+.scientific img {
+    margin-right: 260px;
+}
+
 .button-events2 {
     margin-left: 20px;
 }
@@ -646,7 +689,7 @@ h1 {
 }
 
 .vr-glasses {
-    margin-top: -5px;
+    margin-top: -3px;
     margin-left: 200px;
 }
 
