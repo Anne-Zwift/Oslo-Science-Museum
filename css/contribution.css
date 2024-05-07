@@ -108,6 +108,7 @@
 
 .museum-building {
     background-image: url("../images/museum-building.png");
+    margin-left: 5px;
 }
 
 .h1 {
@@ -144,6 +145,8 @@
 
 .library {
     padding-top: 600px;
+    margin-left: 5px;
+    margin-right: 5px;
 }
 
 }
