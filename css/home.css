@@ -13,8 +13,149 @@ main {
     padding: 5px 10px;
 }
 
+/* new slider*/
+
+.container {
+    margin: 0;
+    padding: 10px;
+    min-height: 50vh;
+    box-sizing: border-box;
+    background: linear-gradient(#eceffe, #ced6fb);
+}
+
+.card-wrapper {
+    max-width: 1900px;
+    margin: 0 60px 35px;
+    padding: 20px 10px;
+    overflow: hidden;
+}
+
+.card-list .card-item {
+   list-style: none;
+    
+}
+
+.card-list .card-item .card-link {
+    user-select: none;
+    display: block;
+    text-align: left;
+    background: #fff;
+    padding: 18px;
+    border-radius: 12px;
+    text-decoration: none;
+    border: 2px solid transparent;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.05);
+    transition: 0.2s ease;
+}
+
+.card-list .card-item .card-link:active {
+    cursor: grabbing;
+}
+
+.card-list .card-item .card-link:hover {
+    border-color: #5372f0;
+}
+
+.card-list .card-link .card-image {
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.card-list .card-link .badge {
+    color: #5372f0;
+    padding: 8px 16px;
+    font-size: larger;
+    font-weight: bolder;
+    margin: 16px 0 18px;
+    background: #dde4ff;
+    width: fit-content;
+    border-radius: 50px;
+}
+
+.card-list .card-link .badge.astronaut {
+    color: #b22485;
+    background: #f7dff5;
+}
+
+.card-list .card-link .badge.mammoth {
+    color: #b25a2b;
+    background: #ffe3d2;
+}
+
+.card-list .card-link .badge.scientist {
+    color: #205c20;
+    background: #d6f8d6;
+}
+
+.card-list .card-link .badge.visit-us {
+    color: #856404;
+    background: #fff3cd;
+}
+
+.card-list .card-link .badge.library {
+    color: ;
+    background: ;
+}
+
+.card-list .card-link .card-title {
+    max-width: 300px;
+    height: 60px;
+    font-size: large;
+    color: #000;
+    font-weight: bold;
+}
+
+.card-list .card-link .card-button {
+    height: 35px;
+    width: 35px;
+    color: #5372f0;
+    border-radius: 50%;
+    margin: 30px 0 5px;
+    border: 2px solid #5372f0;
+    background: none;
+    cursor: pointer;
+    transform: rotate(-45deg);
+    transition: 0.4s ease;
+}
+
+.card-list .card-link:hover .card-button {
+    color: #fff;
+    background: #5372f0;
+}
+
+.card-wrapper .swiper-pagination-bullet {
+    height: 13px;
+    width: 13px;
+    opacity: 0.5;
+    background: #5372f0;
+}
+
+.card-wrapper .swiper-pagination-bullet-active {
+    opacity: 1;
+}
+
+.card-wrapper .swiper-slide-button {
+    color: #5372f0;
+    margin-top: -35px;
+}
+
+/*hide the swiper button on small screens*/
+@media screen and (max-width: 768px) {
+.card-wrapper {
+    margin: 0 10px 25px;
+}
+
+.card-wrapper .swiper-slide-button {
+    display: none;
+}
+
+}
+
+/* new slider stops here*/
 /*the slider starts here*/
-#slider {
+/*#slider {
     overflow: hidden;
 }
 
@@ -76,7 +217,7 @@ main {
 .slider-bg {
     background-color: #5795CE;
     margin-top: 40px;
-}
+}*/
 
 /*the slider stops here*/
 
@@ -683,6 +824,8 @@ padding-left: 60px;
 .museum img {
     width: 1800px;
 }
+
+
 
 #slider {
     padding-left: 1120px;
