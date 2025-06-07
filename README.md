@@ -59,6 +59,7 @@ In order to complete the project we require the following assets to be supplied 
 - (GitHub Pages) Deployed project preview URL.
 - (GitHub Projects) Project Kanban board showing project progress.
 - (Word) Written report including references.
+- NEW: slider
 
 # Resources
 The client has supplied suggested images and text content that can be used on the site. These resources are licensed for use for a web project. Content is supplied *as is* from the client and has not been edited.
