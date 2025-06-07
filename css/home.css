@@ -1,16 +1,38 @@
-main {
-    text-align: center;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
 }
 
-.museum img {
-    margin-top: 140px;
-    width: 270px;
+body {
+
+    text-align: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.museum {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 8rem;
+}
+
+.section-container {
+    margin: 10px 10px 40px 10px;
+}
+
+.text-container p{
+    margin-bottom: 20px;
 }
 
 .button-events {
     background-color: #1B5992;
     color: #fff;
-    padding: 5px 10px;
+    padding: 15px 20px;
+    border-radius: 6px;
+    cursor: pointer;
 }
 
 /* new slider*/
