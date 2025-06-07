@@ -227,7 +227,18 @@ body {
 }
 
 .line {
-    padding: 10px;
+    padding: 20px;
+}
+
+.text-container3 {
+    align-items: center;
+    justify-content: center;
+    padding-top: 2rem;
+}
+
+.text-container3 p {
+    max-width: 300px;
+    margin: 10px 10px 40px 40px;
 }
 
 @media (min-width: 425px) {
