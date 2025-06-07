@@ -366,6 +366,10 @@ body {
     font-size: 1.4rem;
 }
 
+.text-container p {
+    padding-bottom: 40px;
+}
+
 .wrapper {
     max-width: 90vw; /* Expands container width */
     padding: 40px; /* Adds more spacing */
