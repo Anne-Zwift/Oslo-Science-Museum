@@ -257,7 +257,9 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
-    padding-top: 40px;
+    max-width: 95vh;
+    padding: 20px 20px;
+    margin-top: 40px;
 }
 
 .flex-container {
@@ -275,23 +277,39 @@ body {
     margin-top: 20px;
 }
 
+.img-container img {
+    border-radius: 20px;
+}
+
+.text-color-wrapper {
+    display: flex;
+    justify-content: space-between; /* Pushes text left & image right */
+    align-items: center; /* Ensures both elements stay aligned */
+    width: 100%; /* Full-width layout */
+    margin: 0;
+}
+
 .text-color {
-    text-align: center;
+    text-align: left;
     width: 330px;
-    margin-left: 20px;
+    padding-left: 20px;
+    margin-left: 20px; /* No need for manual spacing */
 }
 
 .scientific img {
-    width: 330px;
-    float: right;
-    margin-top: -230px;
-    margin-right: 30px;
+    width: 360px;
+    padding-top: 40px;
+    margin-right: 20px; /* Removes unnecessary spacing */
 }
 
 .button-events2 {
     background-color: #1B5992;
     color: #fff;
-    margin-left: -400px;
+}
+
+.line {
+    padding: 40px;
+
 }
 
 .text-container3 {
