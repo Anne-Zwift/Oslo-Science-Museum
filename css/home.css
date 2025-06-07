@@ -24,13 +24,22 @@ body {
 }    
 
 .section-container {
-    margin: 10px 10px 40px 10px;
+    max-width: 600px;
+    padding-top: 30px;
+    margin: 0 auto;
+    text-align: center;
 }
 
 .text-container p {
     max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
     padding-bottom: 10px;
     margin: 20px;
+}
+
+.text-container {
+    margin-bottom: 40px;
 }
 
 .button-events {
@@ -39,6 +48,7 @@ body {
     padding: 15px 20px;
     border-radius: 6px;
     cursor: pointer;
+    margin-bottom: 20px;
 }
 
 /* new slider*/
@@ -248,11 +258,6 @@ body {
 
 @media (min-width: 768px) {
 
-.text-container {
-    max-width: 600px;
-    margin: 0 auto;
-}
-
 .wrapper {
     display: flex;
     justify-content: space-between;
@@ -331,11 +336,6 @@ body {
 
 @media (min-width: 1024px) {
 
-.text-container {
-    max-width: 600px;
-    margin: 0 auto;
-}
-
 .wrapper {
     display: flex;
     justify-content: center; 
@@ -363,7 +363,7 @@ body {
 @media (min-width: 1440px) {
 
 body {
-    font-size: 1.4rem;
+    font-size: 1.2rem;
 }
 
 .text-container p {
