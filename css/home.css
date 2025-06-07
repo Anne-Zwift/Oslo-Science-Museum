@@ -309,7 +309,6 @@ body {
 
 .line {
     padding: 40px;
-
 }
 
 .text-container3 {
@@ -325,7 +324,7 @@ body {
 }
 
 .text-container3 b {
-    margin-left: 0px;
+    margin-left: 20px;
 }
 
 }
