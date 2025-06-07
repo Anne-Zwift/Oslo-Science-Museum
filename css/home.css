@@ -250,7 +250,7 @@ body {
 
 .text-container {
     max-width: 600px;
-    margin-left: 60px;
+    margin: 0 auto;
 }
 
 .wrapper {
