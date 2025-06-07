@@ -6,7 +6,6 @@
 }
 
 body {
-
     text-align: center;
     align-items: center;
     min-height: 100vh;
@@ -27,8 +26,10 @@ body {
     margin: 10px 10px 40px 10px;
 }
 
-.text-container p{
-    margin-bottom: 20px;
+.text-container p {
+    max-width: 600px;
+    padding-bottom: 10px;
+    margin: 20px;
 }
 
 .button-events {
@@ -206,9 +207,9 @@ body {
     align-items: center;
     justify-content: center;
     text-align: center;
-    max-width: 300px;
+    max-width: 600px;
     color: #1B5992;
-    margin-left: 40px;
+    margin: 20px;
     margin-bottom: 20px;
 }
 
@@ -237,49 +238,8 @@ body {
 }
 
 .text-container3 p {
-    max-width: 300px;
-    margin: 10px 10px 40px 40px;
-}
-
-@media (min-width: 425px) {
-
-.museum img {
-    width: 400px;
-}
-
-.img-container {
-    margin-left: 0px;
-}
-
-.text-container {
-    width: 350px;
-    margin-left: 30px;
-}
-
-.text-container2 {
-    width: 350px;
-    margin-left: 30px;
-}
-
-.img-container {
-    gap: 0px;
-}
-
-.vr-glasses {
-    margin-left: 30px;
-}
-
-.text-color {
-    width: 350px;
-    margin-left: 30px;
-    margin-bottom: 40px;
-}
-
-.text-container3 {
-    width: 350px;
-    margin-left: 30px;
-}
-
+    max-width: 600px;
+    margin: 20px;
 }
 
 @media (min-width: 600px) {
