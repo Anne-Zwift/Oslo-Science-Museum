@@ -171,72 +171,7 @@ body {
 }
 
 /* new slider stops here*/
-/*the slider starts here*/
-/*#slider {
-    overflow: hidden;
-}
 
-#slider figure {
-    position: relative;
-    width: 500%;
-    margin: 0;
-    left: 0;
-    animation: 20s slider infinite;
-}
-
-#slider figure img {
-    float: left;
-    width: 20%;
-    margin-top: 10px;
-    margin-bottom: 10px;
-}
-
-.slider-logo {
-    padding-top: 50px;
-}
-
-.slider-img {
-    box-sizing: border-box;
-    padding: 1%;
-}
-
-@keyframes slider {
-
-    0% {
-        left: 0;
-    }
-    20% {
-        left: 0;
-    }
-    25% {
-        left: -100%;
-    }
-    45% {
-        left: -100%;
-    }
-    50% {
-        left: -200%;
-    }
-    70% {
-        left: -200%;
-    }
-    75% {
-        left: -300%;
-    }
-    95% {
-        left: -300%;
-    }
-    100% {
-        left: -400%;
-    }
-}
-
-.slider-bg {
-    background-color: #5795CE;
-    margin-top: 40px;
-}*/
-
-/*the slider stops here*/
 
 .scientific img {
     width: 250px;
