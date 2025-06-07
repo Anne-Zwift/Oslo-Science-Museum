@@ -331,85 +331,38 @@ body {
 
 @media (min-width: 1024px) {
 
+.text-container {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    max-width: 80vw;
+    margin: 0 auto;
+}
+
+.text-color {
+    text-align: left;
+    margin: 0 auto; /* Centers block */
+    width: 400px; /* Maintains size */
+}
+
+.scientific img {
+    width: 460px;
+    margin-right: 50px;
+}
+
+.text-container3 {
+    margin: 0 auto;
+}
 }
 
 @media (min-width: 1440px) {
 
-.museum img {
-    width: 1400px;
-    margin-bottom: 40px;
-}
 
-.section-container {
-    width: 500px;
-    margin-top: -220px;
-    margin-left: 340px;
-}
-
-.section-container p {
-    width: 450px;
-}
-
-.button-events {
-    padding: 10px 80px;
-}
-
-#slider {
-    margin-top: 0px;
-    padding-left: 650px;
-}
-
-.flex-container {
-    margin-top: 200px;
-}
-
-.text-container2 {
-    margin-left: 800px;
-}
-
-.text-container2 p {
-    width: 500px;
-}
-
-.img-container {
-    margin-left: 140px;
-}
-
-.vr-glasses {
-    width: 230px;
-}
-
-.img-small {
-    width: 235px;
-}
-
-.scientific img {
-    width: 500px;
-    margin-top: -200px;
-    margin-right: 120px;
-}
-
-.text-color {
-    width: 500px;
-    margin-left: 210px;
-}
-
-.button-events2 {
-    padding: 10px 80px;
-    margin-left: 160px;
-}
-
-.line {
-    margin-left: 60px;
-    margin-top: 260px;
-}
-
-.text-container3 {
-    width: 1200px;
-    margin-top: 200px;
-    margin-left: 120px;
-    gap: 150px;
-}
 
 }
 
