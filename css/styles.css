@@ -59,49 +59,58 @@ header {
     position: fixed;
     width: 100%;
     z-index: 9999;
+    top: 0;
+    left: 0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1rem;
+    height: 70px;
 }
 
 .logo-nav {
-    block-size: 40px;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    height: 60px;
     margin-left: 20px;
 }
 
-nav {
-    display: none;
-    position: absolute;
-    margin-top: -15px;
-    padding-left: 15px;
-    text-align: left;
-    background-color: #dbacacd5;
-    width: 100%;
+.logo-nav img {
+    height: 100%;
+    width: auto;
 }
 
-nav a {
-    display: inline-flex;
+.nav-bar {
+   display: flex;
+    gap: 2rem;
+    align-items: center;
+    background: none;
+    position: static;
+    transition: none;
+}
+
+.nav-bar a {
     text-decoration: none;
     color: #00316A;
+    font-weight: 600;
+    font-size: 18px;
+    transition: color 0.2s;
 }
 
-nav a:hover {
-    color: #6C6E70;
-    font-size: smaller;
+.nav-bar a:hover {
+    color: #1B5992;
 }
 
-.hamburger-menu {
-    font-size: 16px;
-    float: right;
-    margin-top: 20px;
-    padding: 10px;
-}
-
-#hamburger-menu {
+/* Hamburger menu button */
+#menu-icon {
     display: none;
-}
-
-#hamburger-menu:checked ~ nav {
-    display: block;
+    background: none;
+    border: none;
+    font-size: 2rem;
+    cursor: pointer;
+    color: #00316A;
+    margin-right: 1rem;
 }
 
 .button-events2 {
@@ -193,38 +202,39 @@ b:hover {
     padding: 20px;
 }
 
-@media (min-width: 375px) {
+/* Hide nav-bar on mobile */
+@media (max-width: 768px) {
+  .nav-bar {
+    position: fixed;
+    top: 0;
+    right: -100%;
+    height: 100vh;
+    width: 220px;
+    flex-direction: column;
+    background: #fff;
+    padding-top: 4rem;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    transition: right 0.3s;
+    z-index: 100;
+    align-items: flex-start;
+    gap: 1.5rem;
+  }
 
-.logo-nav {
-    block-size: 50px;
-}
+  .nav-bar.active {
+    right: 0;
+  }
 
-.hamburger-menu {
-    margin-top: 15px;
-    padding: 20px;
-}
-
-.logo {
-    block-size: 50px;
-}
+  #menu-icon {
+    display: block;
+    position: absolute;
+    right: 1rem;
+    top: 1rem;
+    z-index: 101;
+  }
 
 }
 
 @media (min-width: 425px) {
-
-.logo-nav {
-    block-size: 60px;
-    margin-left: 20px;
-}
-    
-.hamburger-menu {
-    margin-top: 20px;
-}
-
-nav a {
-    font-weight: 600;
-    gap: 20px;
-}
 
 /*footer*/
 .logo {
@@ -234,56 +244,10 @@ nav a {
 
 }
 
-@media (min-width: 600px) {
-
-.logo-nav {
-    margin-left: 40px;
-}
-
-.hamburger-menu {
-    margin-left: 100px;
-}
- 
-nav {
-    width: 100%;
-}
-
-nav a {
-    padding: 5px;
-}
-
-}
 
 /*tablet*/
 @media (min-width: 700px) {
 
-.logo-nav {
-    block-size: 70px;
-    margin-left: 20px;
-}
-    
-nav {
-    display: flex;
-    float: right;
-    position: static;
-    width: 290px;
-    gap: 15px;
-    background-color: #dbacac00;
-    padding: 0px;
-}
-
-nav a {
-    display: inline-block;
-    font-weight: 500;
-    padding-left: 20px;
-    padding-right: 0px;
-    margin-left: -20px;
-    margin-top: 55px
-}
-
-.hamburger-menu {
-    display: none;
-}
 
 .logo {
     block-size: 70px;
@@ -293,16 +257,6 @@ nav a {
 
 /*tablet*/
 @media (min-width: 768px) {
-  
-nav a {
-   font-size: 18px;
-}
-
-nav {
-    display: inline-flex;
-    width: 300px;
-    margin-right: 40px;
-}
 
 /*footer starts here*/
 .footer {
@@ -343,13 +297,6 @@ b {
 
 @media (min-width: 1000px) {
 
-.logo-nav {
-    margin-left: 100px;
-}
-    
-nav {
-    margin-right: 60px;
-}
 
 .caption a {
     font-size: 18px;
@@ -365,16 +312,6 @@ nav {
 
 body b {
     font-size: 20px;
-}
-        
-nav {
-    width: 450px;
-    margin-right: 20px;
-    margin-left: 20px;
-}
-
-.logo-nav {
-    margin-left: 150px;
 }
 
 }
