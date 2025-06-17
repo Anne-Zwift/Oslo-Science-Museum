@@ -4,6 +4,27 @@ html {
     background-color: #fff;
 }
 
+.skip-link {
+    position: absolute;
+    left: -999px;
+    top: auto;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    z-index: 10000;
+    background: #fff;
+    color: #00316A;
+    padding: 8px 16px;
+    border-radius: 4px;
+}
+.skip-link:focus {
+    left: 1rem;
+    top: 1rem;
+    width: auto;
+    height: auto;
+    outline: 2px solid #00316A;
+}
+
 h1 {
     font-family: 'Inter', Roboto, Verdana, Geneva, Tahoma, sans-serif;
     font-size: 33px;
