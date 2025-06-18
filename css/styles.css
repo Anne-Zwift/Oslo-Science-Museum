@@ -168,7 +168,6 @@ header {
     cursor: pointer;
     color: var(--color-primary);
     margin: var(--spacing-sm);
-    padding: var(--spacing-xs);
     position: relative;
 }
 
