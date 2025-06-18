@@ -138,6 +138,7 @@ header {
 
 .nav-bar {
     display: flex;
+    width: 100%;
     gap: 1rem;
     align-items: center;
     background: none;
@@ -166,7 +167,9 @@ header {
     font-size: var(--font-size-large);
     cursor: pointer;
     color: var(--color-primary);
-    margin: var(--spacing-md);
+    margin: var(--spacing-sm);
+    padding: var(--spacing-xs);
+    position: relative;
 }
 
 .button-events2 {
@@ -208,38 +211,46 @@ header {
     text-align: center;
 }
 
-.logo-nav {
-    block-size: 40px;
-    margin-top: 20px;
+.footer .logo img{
+    display: block;
+    margin: 0 auto;
+    width: 100px;
+    height: auto;
 }
 
-b {
-    color: #000;
+.footer p {
+    margin: 0;
+    padding: 10px 0;
+    font-size: var(--font-size-small);
+    color: var(--color-secondary);
 }
 
-a {
+.footer a {
+    color: var(--color-link);
     text-decoration: none;
 }
 
-b:hover {
-    color: #6C6E70;
+.footer a:hover {
+    color: var(--color-primary);
+    text-decoration: underline;
 }
 
-.visit p {
-    margin-top: 0px;
-    margin-left: 0px;
-    margin-bottom: 0px;
-    padding-left: 0px;
+.footer b {
+    font-size: var(--font-size-base);
+    font-weight: var(--font-weight-bold);
+    color: var(--color-primary);
 }
-
-.opening-hours p {
-    margin-top: 0px;
-    margin-left: 0px;
-    margin-bottom: 0px;
-    padding-left: 0px;
+.footer .visit p,
+.footer .opening-hours p {
+    margin: 0;
+    padding: 10px 0;
+    font-size: var(--font-size-small);
+    color: var(--color-secondary);
 }
 
 .caption a {
+    font-size: var(--font-size-small);
+    font-weight: var(--font-weight-medium);
     color: #6C6E70;
 }
 
