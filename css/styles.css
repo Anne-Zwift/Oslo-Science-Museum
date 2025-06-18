@@ -126,7 +126,6 @@ header {
 
 .logo-nav {
     display: flex;
-    align-items: left;
     width: 100%;
     min-height: 80%;
     margin: var(--spacing-xs);
@@ -300,67 +299,49 @@ header {
 
 }
 
-@media (min-width: 425px) {
-
-/*footer*/
-.logo {
-    block-size: 60px;
-    margin-top: 20px;
-}
-
-}
-
-
 /*tablet*/
-@media (min-width: 700px) {
+@media (min-width: 769px) {
 
-
-.logo {
-    block-size: 70px;
+.logo-nav img{
+    width: 95%;
+    min-height: auto;
+    margin: var(--spacing-xs);
+}    
+.nav-bar {
+    position: static;
+    width: auto;
+    height: auto;
+    gap: none;
+    flex-direction: row;
+    background: none;
+    box-shadow: none;
 }
 
+#menu-icon {
+    display: none;
 }
 
-/*tablet*/
-@media (min-width: 768px) {
+.nav-bar a {
+    margin: 0 var(--spacing-md);
+    font-size: var(--font-size-small);
+    padding: var(--spacing-xs) var(--spacing-xs);
+    gap: none;
+    min-width: fit-content;
+}
 
 /*footer starts here*/
 .footer {
     text-align: left;
 }
 
-.logo {
-    margin-left: 20px;
-}
-
-b {
-    margin-left: 20px;
-}
-
-.visit p {
-    margin-left: 20px;
-}
-
-.opening-hours p {
-    margin-left: 20px;
-}
-
-.caption {
-    text-align: center;
-    margin-top: 40px;
-}
-
-.icon {
-    margin-left: 20px;
-    margin-top: -40px;
-}
-
-.copyright {
-    text-align: center;
+.footer .logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
 }
 
 }
-
 @media (min-width: 1000px) {
 
 
