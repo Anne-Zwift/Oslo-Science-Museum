@@ -372,23 +372,3 @@ header {
 
 }
 
-@media (min-width: 1000px) {
-
-
-.caption a {
-    font-size: 18px;
-}
-
-.copyright {
-    font-size: 16px;
-}
-
-}
-
-@media (min-width: 1350px) {
-
-body b {
-    font-size: 20px;
-}
-
-}
