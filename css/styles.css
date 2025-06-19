@@ -304,7 +304,7 @@ header {
 
 .logo-nav img{
     display: block;
-    width: 250px; /* or your preferred fixed size */
+    width: 250px; 
     height: auto;
     padding-right: 0;
     margin: var(--spacing-xs);
