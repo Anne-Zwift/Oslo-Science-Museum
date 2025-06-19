@@ -303,13 +303,13 @@ header {
 @media (min-width: 769px) {
 
 .logo-nav img{
-    display: flex;
-    width: 75%;
-    min-height: auto;
+    display: block;
+    width: 250px; /* or your preferred fixed size */
+    height: auto;
     padding-right: 0;
     margin: var(--spacing-xs);
-    row-gap: var(--spacing-xs);
-}    
+}
+
 .nav-bar {
     position: static;
     width: auto;
@@ -368,9 +368,9 @@ header {
     padding: var(--spacing-md);
     text-align: left;
     font-size: var(--font-size-small);
-
 }
 
+}
 
 @media (min-width: 1000px) {
 
