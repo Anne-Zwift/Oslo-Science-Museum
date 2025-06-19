@@ -336,16 +336,42 @@ header {
 /*footer starts here*/
 .footer {
     text-align: left;
+    padding: var(--spacing-lg) 0 0;
+}
+
+.footer p{
+    line-height: 0.35;
+    padding-left: var(--spacing-lg);
+}
+
+.footer .visit,
+.footer .opening-hours,
+.footer .logo,
+.footer .caption,
+.footer .copyright,
+.footer .icon {
+    padding-left: var(--spacing-lg);
 }
 
 .footer .logo {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 20px 0;
+    margin-bottom: var(--spacing-md);
 }
 
+.copyright {
+    width: auto;
+    margin-top: var(--spacing-lg);
+    background-color: var(--color-copyright-bg);
+    color: #000;
+    padding: var(--spacing-md);
+    text-align: left;
+    font-size: var(--font-size-small);
+
 }
+
+
 @media (min-width: 1000px) {
 
 
