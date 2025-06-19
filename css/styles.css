@@ -303,15 +303,19 @@ header {
 @media (min-width: 769px) {
 
 .logo-nav img{
-    width: 95%;
+    display: flex;
+    width: 75%;
     min-height: auto;
+    padding-right: 0;
     margin: var(--spacing-xs);
+    row-gap: var(--spacing-xs);
 }    
 .nav-bar {
     position: static;
     width: auto;
     height: auto;
-    gap: none;
+    margin-right: var(--spacing-lg);
+    gap: var(--spacing-xs);
     flex-direction: row;
     background: none;
     box-shadow: none;
@@ -322,10 +326,10 @@ header {
 }
 
 .nav-bar a {
-    margin: 0 var(--spacing-md);
+    margin: 0 var(--spacing-xs);
     font-size: var(--font-size-small);
     padding: var(--spacing-xs) var(--spacing-xs);
-    gap: none;
+    gap: var(--spacing-xs);
     min-width: fit-content;
 }
 
