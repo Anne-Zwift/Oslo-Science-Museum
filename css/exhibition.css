@@ -5,36 +5,45 @@
 }
 
 .section-one {
-    padding-top: 120px;
+    padding: var(--spacing-xl) var(--spacing-md);
 }
 
 .human {
+    position: relative;
     background-image: url('../images/human.png');
     background-size: cover;
     background-repeat: no-repeat;
-    min-height: 500px;
-    padding-bottom: 100px;
+    width: 100%;
+    min-height: 100vh;
+    padding-top: var(--spacing-xl);
+    margin-top: var(--spacing-xl);
+    border-top: 40px solid #fff;
+    border-left: 20px solid #fff;
+    border-right: 20px solid #fff;
 }
 
 .text-on-top-one {
-    background-color: #1b5992;
+    position: absolute;
+    top: 120px;      /* Distance from the top of .human */
+    left: 120px;     /* Distance from the left of .human */
+    background-color: var(--color-button);
     color: #fff;
     text-align: center;
-    width: 200px;
-    padding: 5px;
-    border-radius: 10px;
-    margin-top: -480px;
-    margin-left: 70px;
+    padding: 15px 20px;
+    border-radius: 6px;
+}
+
+h1 {
+    font-size: var(--font-size-xxl);
+    font-weight: var(--font-weight-bold);
+    color: var(--color-text-primary);
+    margin-top: 20px;
 }
 
 h2 {
     margin-top: 60px;
 }
 
-.text-container-one {
-    margin-top: 420px;
-    margin-left: 10px;
-}
 
 .skeleton {
     background-image: url("../images/skeleton.png");
@@ -160,7 +169,7 @@ h2 {
     margin-left: 0px;
 }
 
-@media (min-width: 375px) {
+media (min-width: 375px) {
 
 .text-on-top-one {
     margin-top: -490px;
@@ -190,7 +199,7 @@ h2 {
 
 }
 
-@media (min-width: 425px) {
+media (min-width: 425px) {
 
 .human {
     padding-top: 600px;
@@ -249,7 +258,7 @@ h2 {
 
 /*tablet*/
 
-@media (min-width: 600px) {
+media (min-width: 600px) {
 
 .human {
     padding-top: 800px;
@@ -327,7 +336,7 @@ h1 {
 }
 
 /*larger sizes*/
-@media (min-width: 700px) {
+media (min-width: 700px) {
 
 .human {
    border-top: 100px solid #fff;
@@ -355,7 +364,7 @@ h1 {
 }
 
 /*larger sizes*/
-@media (min-width: 768px) {
+media (min-width: 768px) {
 
 .text-container-one {
     margin-left: 152px;
@@ -457,7 +466,7 @@ h1 {
 
 }
 
-@media (min-width: 900px) {
+media (min-width: 900px) {
 
 main {
     margin-left: 80px;
@@ -482,7 +491,7 @@ main {
 
 }
 
-@media (min-width: 1000px) {
+media (min-width: 1000px) {
 
 main {
     margin-left: 140px;
@@ -507,7 +516,7 @@ main {
 
 }
 
-@media (min-width: 1350px) {
+media (min-width: 1350px) {
 
 main {
     margin-left: 280px;
@@ -580,7 +589,7 @@ h2 {
 
 }
 
-@media (min-width: 1500px) {
+media (min-width: 1500px) {
 
 main {
     margin-left: 375px;
@@ -624,7 +633,7 @@ main {
 
 }
 
-@media (min-width: 1600px) {
+media (min-width: 1600px) {
 
 .human {
     background-size: 70%;
@@ -687,7 +696,7 @@ main {
 
 }
 
-@media (min-width: 1900px) {
+media (min-width: 1900px) {
 
 main {
     margin-left: 450px;
