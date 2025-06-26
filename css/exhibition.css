@@ -162,6 +162,8 @@ h2 {
     padding: 15px 20px;
     border: none;
     border-radius: 6px;
+    cursor: pointer;
+    text-decoration: none;
 }
 
 
