@@ -166,3 +166,52 @@ h2 {
 
 
 /*tablet*/
+@media (max-width: 768px) {
+
+    .section {
+        max-width: 100%;
+        margin-top: var(--spacing-xl);
+    }
+    
+    .text-on-top-one {
+        margin: 20px 0 0 10%;
+        position: absolute;
+        display: inline-block;
+        width: 200px;
+    }
+
+   .human {
+        width: 100%;
+        padding: 20%;
+        margin: 0 auto;
+    }
+
+    .text-container {
+        max-width: 600px;
+        margin: 0 auto;
+    }
+
+    .skeleton {
+        width: 60%;
+        height: 600px;
+        margin: 0 auto;
+    }
+
+    .open-science {
+        background-size: 40%;
+        margin: 0 auto;
+    }
+
+    .professor {
+        width: 60%;
+        height: 700px;
+        margin: 0 auto 40px auto;
+    }
+
+    .museum-at-night {
+        background-size: cover;
+        padding-top: 100vh;
+        margin: 20px auto;
+    }
+ 
+}
