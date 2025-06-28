@@ -217,7 +217,7 @@ h2 {
     }
 
     .teacher {
-        transform: scale(0.6);
+        transform: scale(0.8);
         margin: 0 auto;
         padding: 50%;
         height: auto;
@@ -280,20 +280,75 @@ p {
 }
 
 .museum-at-night {
-    background-size: cover;
-    padding-top: 100vh;
-    margin: 20px auto;
-}
-
-.teacher {
-    transform: scale(0.6);
-    margin: 0 auto;
-    padding: 50%;
-    height: auto;
+    padding: 100vh 0;
+    margin: 80px 80px 0 80px;
 }
 
 .button-contact {
     display: inline-block;
     margin: 20px 0 0 5%;
+}
+}
+
+@media (min-width: 1440px) {
+
+.human {
+    width: 40%;
+    padding: 5%;
+}
+
+.text-on-top-one {
+    top: 120px;
+    left: 350px;
+    width: 200px;
+}
+
+.skeleton {
+    max-width: 40%;
+}
+
+.professor {
+    max-width: 40%;
+    margin: 0 auto 40px auto;
+}
+
+}
+
+@media (min-width: 1920px) {
+    
+.section {
+    padding: var(--spacing-xl) var(--spacing-lg);
+    margin-top: var(--spacing-xl);
+    margin-left: var(--spacing-xl);
+    margin-bottom: var(--spacing-xl);
+    margin-right: var(--spacing-xl);
+}
+
+.human {
+    width: 30%;
+    padding: 5%;
+}
+
+.text-on-top-one {
+   left: 40%;
+}
+
+.skeleton {
+    max-width: 30%;
+}
+
+.open-science {
+    background-size: 10%;
+    margin: 0 auto;
+}
+
+.professor {
+    max-width: 30%;
+    margin: 0 auto 40px auto;
+}
+
+.museum-at-night {
+    inline-size:50%;
+    margin-left: 25%;
 }
 }
