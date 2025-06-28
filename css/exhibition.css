@@ -168,7 +168,7 @@ h2 {
 
 
 /*tablet*/
-@media (max-width: 768px) {
+@media (min-width: 768px) {
 
     .section {
         max-width: 100%;
@@ -183,7 +183,7 @@ h2 {
     }
 
    .human {
-        width: 100%;
+        max-width: 80%;
         padding: 20%;
         margin: 0 auto;
     }
@@ -194,18 +194,18 @@ h2 {
     }
 
     .skeleton {
-        width: 60%;
+        max-width: 60%;
         height: 600px;
         margin: 0 auto;
     }
 
     .open-science {
-        background-size: 40%;
-        margin: 0 auto;
+        background-size: 20%;
+        margin: 0 auto 0 auto;
     }
 
     .professor {
-        width: 60%;
+        max-width: 60%;
         height: 700px;
         margin: 0 auto 40px auto;
     }
@@ -215,5 +215,85 @@ h2 {
         padding-top: 100vh;
         margin: 20px auto;
     }
+
+    .teacher {
+        transform: scale(0.6);
+        margin: 0 auto;
+        padding: 50%;
+        height: auto;
+    }
+
+    h1.text-on-top-three {
+        display: inline-block;
+        margin: 0 30%;
+    }
  
+}
+
+@media (min-width: 1024px) {
+   
+.section {
+    padding: var(--spacing-xl) var(--spacing-sm);
+    margin-top: var(--spacing-xl);
+    margin-left: var(--spacing-lg);
+    margin-bottom: var(--spacing-xl);
+    margin-right: var(--spacing-lg);
+}
+
+.human {
+    width: 60%;
+    padding: 10%;
+    margin: 0 auto;
+}
+
+.text-on-top-one {
+    top: 120px;
+    left: 220px;
+    width: 150px;
+}
+
+h2 {
+    max-width: 600px;
+    padding-left: var(--spacing-lg);
+    margin: 0 auto;
+}
+
+.text-container p{
+    max-width: 600px;
+    padding-left: var(--spacing-lg);
+    margin: 0 auto;
+}
+
+p {
+    max-width: 600px;
+    padding-left: var(--spacing-lg);
+    margin: 0 auto;
+}
+
+.skeleton {
+    max-width: 50%;
+}
+
+.professor {
+    max-width: 50%;
+    margin: 0 auto 40px auto;
+}
+
+.museum-at-night {
+    background-size: cover;
+    padding-top: 100vh;
+    margin: 20px auto;
+}
+
+.teacher {
+    transform: scale(0.6);
+    margin: 0 auto;
+    padding: 50%;
+    height: auto;
+}
+
+.button-contact {
+    display: inline-block;
+    margin: 20px 0 0 5%;
+}
 }
