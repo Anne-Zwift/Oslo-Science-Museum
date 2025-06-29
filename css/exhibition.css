@@ -11,15 +11,12 @@
 }
 
 .human {
-
     background-image: url('../images/human.png');
     background-size: cover;
     background-repeat: no-repeat;
     width: 100%;
     min-height: 100vh;
     padding-top: var(--spacing-xl);
-    margin-top: var(--spacing-xl);
-    border-top: 40px solid #fff;
     border-left: 10px solid #fff;
     border-right: 10px solid #fff;
 }
@@ -27,7 +24,6 @@
 .text-on-top-one {
     position: absolute;
     display: inline-block;
-    top: 120px;
     left: 40px;
     background-color: var(--color-button);
     color: #fff;
@@ -247,7 +243,6 @@ h2 {
 }
 
 .text-on-top-one {
-    top: 120px;
     left: 220px;
     width: 150px;
 }
@@ -298,7 +293,6 @@ p {
 }
 
 .text-on-top-one {
-    top: 120px;
     left: 350px;
     width: 200px;
 }

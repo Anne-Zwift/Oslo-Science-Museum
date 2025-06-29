@@ -15,12 +15,11 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding-top: 8rem;
 }
 
 .museum img {
     width: 100%;
-    padding: 20px;
+    padding: 0 20px 0 20px;
 }    
 
 .section-container {

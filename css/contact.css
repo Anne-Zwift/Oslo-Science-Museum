@@ -1,5 +1,11 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 main {
-    margin-bottom: 20px;
+    margin: var(--spacing-md) 0 var(--spacing-lg) 0;
 }
 
 .contact-image {
@@ -8,53 +14,64 @@ main {
     background-repeat: no-repeat;
     width: 50px;
     border-radius: 60px;
-    padding: 25%;
-    margin-left: 55px;
+    padding: 30%;
+    margin: 0 auto;
 }
 
-.container {
-    padding-top: 120px;
-}
-
-/*text-color for "contact us"*/
-.text-color{
-    width: 220px;
+.contact-information p {
+    font-size: var(--font-size-small);
     text-align: center;
     color: #1B5992;
-    margin-left: 55px;
+    margin: var(--spacing-md) 0;
 }
 
-.background-color{
-    background-color: #D9D9D9;
-    padding-bottom: 40px;
-}
-
-.opening-hours2 p {
+.contact-information h1 {
     text-align: center;
-    margin-top: 5px;
-    margin-left: 0px;
-    margin-bottom: 0px;
-    padding-left: 0px;
+    font-size: var(--font-size-large);
+    color: #1B5992;
+    margin-top: 20px;
 }
 
-.opening-hours2 {
+.background{
+    background-color: var(--color-background-section);
+    padding-top: var(--spacing-lg);
+    padding-bottom: var(--spacing-lg);
+}
+
+.opening-information{
+    font-size: var(--font-size-base);
     text-align: center;
-    padding-top: 60px;
-    padding-bottom: 60px;
+    color: var(--color-secondary);
+}
+
+.opening-hours i {
+    margin: 0;
+    padding: 5px 0;
+    font-style: italic;
+}
+
+.form-container {
+    background-color: var(--color-bg);
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px;
+    margin: 0 auto;
 }
 
 .form-input {
-    display: block;
-    font-size: 16px;
-    width: 200px;
-    padding: 5px;
-    margin-top: 8px;
-    margin-left: 35px;
-    margin-bottom: 12px;
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
 }
 
 .text-label {
-    margin-left: 35px;
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+    font-size: var(--font-size-base);
 }
 
 select#category {
@@ -63,218 +80,36 @@ select#category {
 }
 
 label {
-    margin-top: 10px;
+    font-size: var(--font-size-base);
+    color: #333;
 }
 
 .button-submit {
-    background-color: #1B5992;
-    color: #fff;
-    padding: 5px 80px;
-    margin-left: 35px;
+    background-color: var(--color-button);
+    color: var(--color-text-button);
+    text-decoration: none;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: var(--font-size-base);
 }
 
-@media (min-width: 375px) {
+
+@media (min-width: 1024px) {
 
 .contact-image {
-    margin-left: 65px;
-}
-
-.text-color {
-    margin-left: 70px;
-}
-
-.opening-hours2 {
-    text-align: left;
-    margin-left: 35px;
-}
-
-.opening-hours2 p {
-    text-align: left;
-}
-
-.form-input {
-    width: 260px;
-}
-
-.button-submit {
-    padding: 5px 110px;
+    width: 100px;
+    padding: 20%;
+    margin: 0 auto;
 }
 
 }
 
-@media (min-width: 425px) {
-
-.container {
-    display: flex;
-}
-
-.contact-image {
-    display: flex;
-    flex-direction: column;
-    padding: 15%;
-    border-radius: 40px;
-    margin-left: 10px;
-    margin-bottom: 20px;
-}
-
-.text-color {
-    width: 200px;
-    text-align: left;
-    margin-top: 40px;
-    margin-left: 20px;
-    margin-bottom: 40px;
-}
-    
-}
-
-@media (min-width: 600px) {
-
-.container {
-    padding-top: 160px;
-}
-
-.form-input {
-    width: 500px;
-}
-
-.button-submit {
-    padding: 6px 120px;
-}
-
-}
-
-@media (min-width: 768px) {
-
-.contact-image {
-    margin-top: 80px;
-    margin-bottom: 80px;
-}
-
-.text-color {
-    margin-top: 100px;
-    width: 300px;
-}
-
-.opening-hours2 p {
-    margin-left: 20px;
-}
-
-}
-
-@media (min-width: 1000px) {
-
-.contact-image {
-    margin-left: 60px;
-}
-
-.text-color {
-    font-size: 18px;
-    margin-top: 160px;
-    margin-left: 60px;
-    width: 300px;
-}
-
-.opening-hours2 {
-    padding-top: 100px;
-    padding-bottom: 0px;
-}
-
-.opening-hours2, p {
-    font-size: 18px;
-}
-
-.opening-hours2 {
-    font-size: 20px;
-}
-
-.background-color {
-    padding-bottom: 100px;
-}
-
-.form-input {
-    width: 400px;
-}
-
-.form-container2 {
-    float: right;
-    width: 500px;
-    margin-top: -288px;
-}
-
-.button-submit {
-    padding: 8px 120px;
-}
-
-}
-
-@media (min-width: 1100px) {
-
-.form-input {
-    margin-left: 60px;
-}
-
-.text-label {
-    margin-left: 60px;
-}
-
-.button-submit {
-    margin-left: 60px;
-}
-
-}
-
-@media (min-width: 1200px) {
-
-.text-color {
-    margin-top: 200px;
-}
-    
-.form-container {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr); 
-}
-    
-.form-container2 {
-    margin-left: 500px;
-}
-
-}
-
-@media (min-width: 1500px) {
-
-.contact-image {
-    margin-top: 100px;
-    margin-left: 150px;
-    margin-bottom: 80px;
-    padding: 10%;
-}
-
-.text-color {
-    margin-top: 170px;
-}
-
-.opening-hours2 {
-    margin-left: 120px;
-}
-
-.form-container {
-    margin-left: 80px;
-}
-
-.form-input {
-    width: 500px;
-}
-
-.form-container2 {
-    margin-left: 600px;
-}
-
-}
-
-@media (min-width: 1900px) {
-
-.text-color {
-    margin-top: 260px;
-}
-
+@media (min-width:1920px) {
+    .contact-image {
+        width: 150px;
+        padding: 10%;
+        margin: 0 auto;
+    }
 }
