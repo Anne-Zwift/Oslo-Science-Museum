@@ -1,36 +1,57 @@
-.flex-container {
-    padding-top: 120px;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main {
+    margin: var(--spacing-md) 0 var(--spacing-lg) 0;
 }
 
 .museum-building {
     background-image: url("../images/museum-buildingM.png");
     background-size: cover;
     background-repeat: no-repeat;
-    padding-top: 400px;
-    padding-bottom: 100px;
+    border: #fff solid 10px;
+    padding: 100% 0 20px 0;
 }
 
-.h1 {
+h1.h1 {
+    font-size: var(--font-size-large);
     background-color: #EFC0C0;
     color: #001D56;
     text-align: center;
+    max-width: 300px;
+    height: auto;
+    padding: var(--spacing-sm) var(--spacing-md)    ;
+    margin: 0 var(--spacing-md) 0 var(--spacing-sm);
     border-radius: 10px;
-    width: 160px;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    margin-left: 90px;
-    margin-bottom: -80px;
 }
 
 .text-container {
-    margin-top: 20px;
-    margin-left: 10px;
+    margin: var(--spacing-md) var(--spacing-md) var(--spacing-lg) var(--spacing-md);
+}
+
+.text-container p {
+    font-size: var(--font-size-base);
+    line-height: 1.5;
+    color: #333;
+    margin-bottom: var(--spacing-lg);
+}
+
+.text-container h2 {
+    font-size: var(--font-size-large);
+    color: #001D56;
+    margin-top: var(--spacing-md);
+    margin-bottom: var(--spacing-sm);
 }
 
 .button-contact {
     background: #1B5992;
     color: #fff;
-    padding: 5px 40px;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
 }
 
 .library {
@@ -38,183 +59,53 @@
     background-size: cover;
     background-repeat: no-repeat;
     padding-top: 200px;
+    border: #fff solid 10px;
     margin-top: 40px;
     margin-bottom: 40px;
 }
 
-@media (min-width: 375px) {
-
-.museum-building {
-    padding-top: 600px;
-}
-
-.h1 {
-    transform: translate(-50%, -50%);
-    padding: 10px;
-    margin-left: 240px;
-}
-
-.text-container2 {
-    margin-top: 40px;
-}
-
-.library {
-    padding-top: 400px;
-}
-
-}
-
-@media (min-width: 425px) {
-
-.h1 {
-    margin-left: 280px;
-}
-
-}
-
-@media (min-width: 600px) {
+@media (min-width: 1024px) {
 
 .flex-container {
-    padding-top: 160px;
+padding-left: 20%;
 }
 
 .museum-building {
-    padding-top: 900px;
+    background-size: 60% 100%;
+    background-position: left;
 }
 
-.h1 {
-    padding: 15px;
-    width: 220px;
-    margin-left: 440px;
+h1.h1 {
+    font-size: var(--font-size-x-large);
+    max-width: 300px;
+    padding: var(--spacing-md) var(--spacing-lg);
+    margin: 0 var(--spacing-xl);
 }
 
-.text-container {
-    margin-left: 20px;
+.text-container p{
+    max-width: 600px;
 }
 
-.text-container2 {
-   width: 450px;
-   margin-left: 20px;
-   margin-bottom: 40px;
+.library {
+    background-size: 60% 100%;
+    background-position: center;
+    padding-top: 300px;
+}
 }
 
-.button-contact {
-    padding: 8px 80px;
-}
-
-}
-
-@media (min-width: 768px) {
-
-.museum-building {
-    background-image: url("../images/museum-building.png");
-    margin-left: 5px;
-}
-
-.h1 {
-    margin-top: -820px;
-    margin-left: 140px;
-    padding-top: 20px;
-    padding-bottom: 20px;
-}
-
+@media (min-width: 1920px){
 .flex-container {
-    display: flex;
-    flex-wrap: wrap;
+    padding-left: 30%;
 }
-
-.text-container {
-    width: 325px;
-    flex-direction: column;
-}
-
-.text-container2 {
-    width: 300px;
-    padding-top: 70px;
-    margin-bottom: 10px;
-}
-
-.text-container2 p {
-    margin-top: 20px;
-    margin-bottom: 20px;
-}
-
-.text-container2 b {
-    margin-left: 0px;
-}
-
-.library {
-    padding-top: 600px;
-    margin-left: 5px;
-    margin-right: 5px;
-}
-
-}
-
-/*tablet*/
-@media (min-width: 1000px) {
-
-.text-container {
-    width: 450px;
-}
-
-.text-container2 {
-    width: 400px;
-}
-
-}
-/*make sizes up to 1950px*/
-@media (min-width: 1350px) {
 
 .museum-building {
-    padding: 100px;
-    margin-left: 100px;
-}
-
-.h1 {
-    margin-top: 0px;
-    margin-left: 60px;
-}
-
-.text-container {
-    width: 500px;
-}
-
-.text-container2 {
-    width: 480px;
-}
-   
-.library {
-    margin-left: 100px;
-}
-
-.button-contact {
-    padding: 10px 100px;
-}
-
-}
-
-@media (min-width: 1500px) {
-
-.button-contact {
-    padding: 10px 120px;
-}
-
-}
-
-@media (min-width: 1600px) {
-
-.museum-building {
-    margin-top: 150px;
-    margin-left: 250px;
-}    
-
-.text-container {
-    margin-top: 120px;
+    background-size: 50% 100%;
+    background-position: left;
 }
 
 .library {
-    margin-left: 250px;
+    background-size: 50% 100%;
+    height: auto;
+    background-position: center;
 }
-
 }
