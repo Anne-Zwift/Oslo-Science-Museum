@@ -41,7 +41,8 @@ main {
 }
 
 .section ul li {
-    margin-bottom: 10px;
+    font-size: var(--font-size-base);
+    margin: var( --spacing-md);
 }
 
 .section a {
@@ -52,4 +53,61 @@ main {
 .section a:hover {
     color: #0056b3;
     text-decoration: underline;
+}
+
+
+/*tablet*/
+
+@media (min-width: 768px) {
+.section {
+    max-width: 600px;
+    padding: 15px;
+    margin: 0 auto;
+}
+
+.section2 {
+    max-width: 600px;
+    padding: 15px;
+    margin: 0 auto;
+}
+
+.section p {
+    max-width: 600px;
+}
+
+.section a:hover {
+    font-size: medium;
+}
+}
+
+@media (min-width: 1440px) {
+
+
+.section {
+    flex: 1 1 48%; 
+    margin: 20px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+}
+
+.section2 {
+    flex: 1 1 48%; 
+    margin: 20px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+}
+
+.flex-container2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    align-items: stretch;
+    gap: 20px;
+    margin: 0 auto;
+}
+
+
+
 }
