@@ -180,12 +180,6 @@ header {
 }
 
 /*arrow to top starts here*/
-.up {
-    position: fixed;
-    bottom: 20px;
-    right: 20px;
-    z-index: 1000;
-}
 
 #back-to-top {
     display: none; /* Hidden by default */
@@ -212,15 +206,17 @@ header {
 
 
 /*footer starts here*/
+
 .footer {
     background-color: var(--color-footer-bg);
     text-align: center;
 }
 
-.footer .logo img{
+.logo{
     display: block;
+    padding: var(--spacing-md);
     margin: 0 auto;
-    width: 100px;
+    width: 80%;
     height: auto;
 }
 
@@ -229,11 +225,13 @@ header {
     padding: 10px 0;
     font-size: var(--font-size-small);
     color: var(--color-secondary);
+    line-height: 0.5;
 }
 
 .footer a {
     color: var(--color-link);
     text-decoration: none;
+    line-height: 0.5;
 }
 
 .footer a:hover {
@@ -249,15 +247,16 @@ header {
 .footer .visit p,
 .footer .opening-hours p {
     margin: 0;
-    padding: 10px 0;
     font-size: var(--font-size-small);
     color: var(--color-secondary);
+    line-height: 0.5;
 }
 
 .caption a {
     font-size: var(--font-size-small);
     font-weight: var(--font-weight-medium);
     color: #6C6E70;
+    line-height: 1.6;
 }
 
 .caption a:hover {
@@ -344,29 +343,28 @@ header {
 /*footer starts here*/
 .footer {
     text-align: left;
-    padding: var(--spacing-lg) 0 0;
+
 }
 
 .footer p{
     line-height: 0.35;
-    padding-left: var(--spacing-lg);
 }
 
 .footer .visit,
 .footer .opening-hours,
-.footer .logo,
+.footer b,
+.footer p,
 .footer .caption,
 .footer .copyright,
 .footer .icon {
     padding-left: var(--spacing-lg);
 }
 
-.footer .logo {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: var(--spacing-md);
+.logo {
+    margin-left: 0;
+    width: 50%;
 }
+
 
 .copyright {
     width: auto;
