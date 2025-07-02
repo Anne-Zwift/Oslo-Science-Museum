@@ -181,31 +181,35 @@ header {
 
 /*arrow to top starts here*/
 .up {
-    width: 100%;
-    background: var(--color-text-button) no-repeat;
-    background-size: cover;
-}
-
-.fa-arrow-up {
     position: fixed;
-    align-content: center;
-    text-align: center;
-    color: var(--color-text-button);
-    width: 40px;
-    height: 40px;
-    background: var(--color-button);
-    border-radius: 100%;
     bottom: 20px;
-    right: 10px;
-    line-height: 10px;
-    text-decoration: none;
+    right: 20px;
+    z-index: 1000;
 }
 
-.fa-arrow-up:hover {
-    background: var(--color-button-hover);
-    line-height: 40px;
-    transition-duration: 2ms;
+#back-to-top {
+    display: none; /* Hidden by default */
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: var(--color-button);
+    color: var(--color-text-button);
+    border: none;
+    max-width: 25%;
+    padding: 10px;
+    font-size: var(--font-size-small);
+    border-radius: 6px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+    z-index: 1000;
 }
+
+#back-to-top:hover {
+    background-color: var(--color-button-hover);
+    transition: background-color 0.3s ease;
+}
+
 
 /*footer starts here*/
 .footer {
