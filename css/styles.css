@@ -216,7 +216,7 @@ header {
     display: block;
     padding: var(--spacing-md);
     margin: 0 auto;
-    width: 80%;
+    max-width: 80%;
     height: auto;
 }
 
@@ -362,7 +362,7 @@ header {
 
 .logo {
     margin-left: 0;
-    width: 50%;
+    max-width: 50%;
 }
 
 
