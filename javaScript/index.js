@@ -1,19 +1,17 @@
+// Set footer year
+import { setFooterYear } from './footer.js';
+
+setFooterYear();
+
 // Mobile navigation toggle
-const menuIcon = document.getElementById('menu-icon');
-const navBar = document.querySelector('.nav-bar');
+import { setupMobileNav } from './nav.js';
 
-menuIcon.addEventListener('click', () => {
-  navBar.classList.toggle('active');
-  menuIcon.classList.toggle('open');
+setupMobileNav();
 
-});
+// Back to top button functionality
+import { setupBackToTop } from './backToTop.js';
 
-navBar.querySelectorAll('a').forEach(link => {
-  link.addEventListener('click', () => {
-    navBar.classList.remove('active');
-    menuIcon.classList.remove('open');
-  });
-});
+setupBackToTop();
 
 
 
