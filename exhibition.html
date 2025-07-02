@@ -15,7 +15,7 @@
         <link rel="stylesheet" href="./css/styles.css">
         <link rel="stylesheet" href="./css/exhibition.css">
         <script src="https://kit.fontawesome.com/d3e1febfe2.js" crossorigin="anonymous"></script>
-        <script src="./javaScript/index.js" defer></script>
+        <script type="module" src="./javaScript/exhibition.js" defer></script>
     </head>
     <body>
         <a href="#main-content" class="skip-link">Skip to main content</a>
@@ -104,8 +104,9 @@
                 </div>
             </section>
         </main>
-        <div class="up"></div>
-        <a href="./exhibition.html" title="up"><i class="fa-solid fa-arrow-up"></i></a>
+        <div>
+        <button id="back-to-top">↑ Back to Top</button>
+        </div>
         <footer class="footer">
             <div>
                 <a href="./index.html" title="home page">
@@ -146,7 +147,7 @@
                 <i class="fa-brands fa-instagram"></i>
             </div>
            </aside>
-            <div class="copyright">&copy; 2024 Oslo Science Museum</div>
+            <p class="copyright">&copy; <span id="footer-year"></span> Oslo Science Museum. All rights reserved.</p>
         </footer>
     </body>
 </html>
